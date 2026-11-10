@@ -1,0 +1,320 @@
+[
+  {
+    "id": "agaricus-campestris",
+    "common": "Meadow Mushroom",
+    "latin": "Agaricus campestris",
+    "toxicity": "edible",
+    "features": {
+      "cap": "White, smooth to silky, 3–10 cm",
+      "underside": "Free gills, pink when young, turning chocolate brown",
+      "stipe": "Short and white, thin ring that often falls away, no volva",
+      "sporePrint": "Dark chocolate brown",
+      "habitat": "Grass, lawns and pastures, summer to fall"
+    },
+    "lookalikes": [
+      { "id": "amanita-bisporigera", "tell": "The Destroying Angel has white gills, a white spore print and a sac-like volva at the base. Always dig up the whole base." }
+    ]
+  },
+  {
+    "id": "amanita-bisporigera",
+    "common": "Eastern Destroying Angel",
+    "latin": "Amanita bisporigera",
+    "toxicity": "deadly",
+    "features": {
+      "cap": "Pure white, smooth, 3–10 cm",
+      "underside": "White, free, crowded gills that stay white",
+      "stipe": "White, skirt-like ring, base sits in a sac-like volva that is often buried",
+      "sporePrint": "White",
+      "habitat": "Woods with oak, birch or pine, eastern North America, summer to fall"
+    },
+    "lookalikes": [
+      { "id": "agaricus-campestris", "tell": "The Meadow Mushroom has pink to brown gills, no volva, and grows in open grass." },
+      { "id": "calvatia-gigantea", "tell": "Young Amanitas start as a white egg. Slice it top to bottom: any outline of a cap and gills inside means Amanita, not puffball." }
+    ]
+  },
+  {
+    "id": "cantharellus-cibarius",
+    "common": "Golden Chanterelle",
+    "latin": "Cantharellus cibarius",
+    "toxicity": "edible",
+    "features": {
+      "cap": "Egg-yolk to orange-yellow, wavy edge, becomes funnel-shaped",
+      "underside": "Blunt, forked false gills (ridges) running down the stem",
+      "stipe": "Solid, same colour as cap; flesh pulls apart like string cheese",
+      "sporePrint": "Pale yellow to pinkish white",
+      "habitat": "On soil near hardwoods or conifers, singly or scattered, summer to fall",
+      "other": "Fruity, apricot-like smell"
+    },
+    "lookalikes": [
+      { "id": "omphalotus-illudens", "tell": "The Jack-o'-Lantern has sharp true gills, grows in dense clusters on wood or buried roots, and is orange all the way through." }
+    ]
+  },
+  {
+    "id": "omphalotus-illudens",
+    "common": "Jack-o'-Lantern",
+    "latin": "Omphalotus illudens",
+    "toxicity": "toxic",
+    "features": {
+      "cap": "Bright orange, convex then funnel-shaped",
+      "underside": "Sharp, crowded true gills running down the stem; can glow faintly in the dark",
+      "stipe": "Orange, tapering, bases fused together in clusters",
+      "sporePrint": "Cream to pale yellow",
+      "habitat": "Dense clusters on hardwood stumps or buried roots, often oak, eastern North America",
+      "other": "Flesh orange throughout"
+    },
+    "lookalikes": [
+      { "id": "cantharellus-cibarius", "tell": "Chanterelles have blunt forked ridges instead of sharp gills, grow singly from soil, and have white flesh inside." }
+    ]
+  },
+  {
+    "id": "morchella-americana",
+    "common": "Yellow Morel",
+    "latin": "Morchella americana",
+    "toxicity": "edible-caution",
+    "features": {
+      "cap": "Honeycomb of pits and ridges, yellowish to tan, joined to the stem at its bottom edge",
+      "underside": "No gills or pores; the pitted cap carries the spores",
+      "stipe": "White; cut lengthwise, cap and stem form one continuous hollow chamber",
+      "sporePrint": "Cream",
+      "habitat": "Spring, near dying elm, ash, old apple orchards and tulip poplar",
+      "other": "Must be cooked; raw morels make people ill"
+    },
+    "lookalikes": [
+      { "id": "gyromitra-esculenta", "tell": "The False Morel has brain-like lobes instead of pits, and is stuffed with cottony fibres when cut, not hollow." }
+    ]
+  },
+  {
+    "id": "gyromitra-esculenta",
+    "common": "False Morel",
+    "latin": "Gyromitra esculenta",
+    "toxicity": "deadly",
+    "features": {
+      "cap": "Brain-like wrinkled lobes, reddish-brown, no true pits; hangs loose like a skirt",
+      "underside": "No gills or pores",
+      "stipe": "Cut lengthwise it is chambered or stuffed with cottony fibres",
+      "sporePrint": "Whitish",
+      "habitat": "Spring, conifer forests and sandy soil"
+    },
+    "lookalikes": [
+      { "id": "morchella-americana", "tell": "True morels have honeycomb pits and are completely hollow from cap tip to stem base." }
+    ]
+  },
+  {
+    "id": "chlorophyllum-rhacodes",
+    "common": "Shaggy Parasol",
+    "latin": "Chlorophyllum rhacodes",
+    "toxicity": "edible-caution",
+    "features": {
+      "cap": "7–20 cm, brown centre breaking into shaggy scales over white",
+      "underside": "White, free gills that stay white",
+      "stipe": "Smooth, double-edged movable ring, bulb at base; flesh bruises orange-red when cut",
+      "sporePrint": "White",
+      "habitat": "Compost, gardens, wood chips and conifer litter",
+      "other": "Upsets some people's stomachs. North American finds are often the close relatives C. brunneum or C. olivieri."
+    },
+    "lookalikes": [
+      { "id": "chlorophyllum-molybdites", "tell": "The Green-spored Parasol's gills turn greyish-green with age and it drops a green spore print. Always take a print." }
+    ]
+  },
+  {
+    "id": "chlorophyllum-molybdites",
+    "common": "Green-spored Parasol",
+    "latin": "Chlorophyllum molybdites",
+    "toxicity": "toxic",
+    "features": {
+      "cap": "Large, white with brownish scales",
+      "underside": "Gills white at first, turning greyish-green when mature",
+      "stipe": "White with a movable ring",
+      "sporePrint": "Green to greyish-green: the key feature",
+      "habitat": "Lawns and grassy areas, often in fairy rings, commoner in warm regions",
+      "other": "The most common cause of mushroom poisoning in North America"
+    },
+    "lookalikes": [
+      { "id": "chlorophyllum-rhacodes", "tell": "The Shaggy Parasol drops a white spore print and its gills stay white." }
+    ]
+  },
+  {
+    "id": "armillaria-mellea",
+    "common": "Honey Mushroom",
+    "latin": "Armillaria mellea",
+    "toxicity": "edible-caution",
+    "features": {
+      "cap": "Honey-yellow to brown, fine dark hairs or scales near the centre",
+      "underside": "Whitish to pinkish gills, attached or running slightly down the stem",
+      "stipe": "Cottony ring, bases fused together in clusters",
+      "sporePrint": "White; caps below often dusted white",
+      "habitat": "Clusters on wood and roots of hardwoods, fall; a tree parasite",
+      "other": "Must be well cooked; some people react"
+    },
+    "lookalikes": [
+      { "id": "galerina-marginata", "tell": "The Deadly Galerina is smaller and drops a rusty-brown spore print instead of white." }
+    ]
+  },
+  {
+    "id": "galerina-marginata",
+    "common": "Deadly Galerina",
+    "latin": "Galerina marginata",
+    "toxicity": "deadly",
+    "features": {
+      "cap": "Small, 1–4 cm, sticky, tan to brown, fades paler as it dries",
+      "underside": "Brownish attached gills",
+      "stipe": "Thin and brownish, fragile ring zone stained rusty by spores",
+      "sporePrint": "Rusty brown",
+      "habitat": "Decaying wood, often conifer, spring and fall",
+      "other": "Contains the same amatoxins as the Death Cap"
+    },
+    "lookalikes": [
+      { "id": "armillaria-mellea", "tell": "Honey Mushrooms are bigger, have hairy caps, and drop a white spore print." }
+    ]
+  },
+  {
+    "id": "boletus-edulis",
+    "common": "King Bolete",
+    "latin": "Boletus edulis",
+    "toxicity": "edible",
+    "features": {
+      "cap": "Brown, bun-shaped, smooth and slightly greasy",
+      "underside": "Pores, white then yellow to olive, not bruising blue",
+      "stipe": "Thick and club-shaped, fine white net pattern on the upper part",
+      "sporePrint": "Olive-brown",
+      "habitat": "With conifers and birch, summer to fall"
+    },
+    "lookalikes": [
+      { "id": "tylopilus-felleus", "tell": "The Bitter Bolete has pinkish pores and a coarse dark-brown net on the stem." }
+    ]
+  },
+  {
+    "id": "tylopilus-felleus",
+    "common": "Bitter Bolete",
+    "latin": "Tylopilus felleus",
+    "toxicity": "inedible",
+    "features": {
+      "cap": "Tan to brown, smooth",
+      "underside": "Pores white at first, becoming pinkish",
+      "stipe": "Coarse dark-brown net pattern",
+      "sporePrint": "Pinkish brown",
+      "habitat": "Hemlock and hardwoods, often near rotting stumps",
+      "other": "Intensely bitter; one mushroom ruins a whole dish"
+    },
+    "lookalikes": [
+      { "id": "boletus-edulis", "tell": "The King Bolete has white to olive pores and a fine pale net on the stem." }
+    ]
+  },
+  {
+    "id": "amanita-muscaria",
+    "common": "Fly Agaric",
+    "latin": "Amanita muscaria",
+    "toxicity": "toxic",
+    "features": {
+      "cap": "Red to yellow-orange with white or yellowish warts (volva remnants)",
+      "underside": "White, free gills",
+      "stipe": "White with a ring; bulb at base ringed with concentric bands of volva tissue",
+      "sporePrint": "White",
+      "habitat": "With conifers and birch, summer to fall",
+      "other": "Eastern populations are often yellow-orange (var. guessowii)"
+    },
+    "lookalikes": [
+      { "id": "amanita-phalloides", "tell": "The Death Cap has a smooth olive-green cap, usually without warts, and a large sac-like volva." }
+    ]
+  },
+  {
+    "id": "amanita-phalloides",
+    "common": "Death Cap",
+    "latin": "Amanita phalloides",
+    "toxicity": "deadly",
+    "features": {
+      "cap": "Olive-green to yellowish bronze, smooth, sometimes one white patch",
+      "underside": "White, free gills",
+      "stipe": "White, skirt-like ring, large sac-like cup (volva) at base",
+      "sporePrint": "White",
+      "habitat": "Introduced; under oak and pine, especially on the West Coast",
+      "other": "Causes most mushroom deaths worldwide"
+    },
+    "lookalikes": [
+      { "id": "amanita-muscaria", "tell": "The Fly Agaric has a red or yellow-orange cap covered in warts and ringed bands at the base rather than a sac." },
+      { "id": "calvatia-gigantea", "tell": "Young Amanitas start as a white egg. Slice it top to bottom: any outline of a cap and gills inside means Amanita, not puffball." }
+    ]
+  },
+  {
+    "id": "laetiporus-sulphureus",
+    "common": "Chicken of the Woods",
+    "latin": "Laetiporus sulphureus",
+    "toxicity": "edible-caution",
+    "features": {
+      "cap": "Overlapping shelves, bright orange on top with yellow edges",
+      "underside": "Sulphur-yellow tiny pores",
+      "stipe": "None; attached directly to the wood",
+      "sporePrint": "White",
+      "habitat": "Oak and other hardwoods, summer to fall",
+      "other": "Eat only young and cooked; some people react"
+    },
+    "lookalikes": [
+      { "id": "grifola-frondosa", "tell": "Hen of the Woods is a grey-brown rosette of small spoon-shaped caps with white pores." }
+    ]
+  },
+  {
+    "id": "grifola-frondosa",
+    "common": "Hen of the Woods",
+    "latin": "Grifola frondosa",
+    "toxicity": "edible",
+    "features": {
+      "cap": "Rosette of many grey-brown spoon-shaped caps",
+      "underside": "White pores",
+      "stipe": "Branched white base joining all caps",
+      "sporePrint": "White",
+      "habitat": "Base of oaks, fall, eastern North America"
+    },
+    "lookalikes": [
+      { "id": "laetiporus-sulphureus", "tell": "Chicken of the Woods has bright orange shelves with yellow pores." }
+    ]
+  },
+  {
+    "id": "calvatia-gigantea",
+    "common": "Giant Puffball",
+    "latin": "Calvatia gigantea",
+    "toxicity": "edible-caution",
+    "features": {
+      "cap": "Large white ball, 10–50 cm, smooth leathery skin",
+      "underside": "None; no gills, pores or stem",
+      "stipe": "None; attached by a cord",
+      "sporePrint": "Olive-brown; inside turns yellow then powdery with age",
+      "habitat": "Meadows, lawns and woodland edges, late summer to fall",
+      "other": "Only edible when solid pure white inside, like marshmallow"
+    },
+    "lookalikes": [
+      { "id": "amanita-phalloides", "tell": "A young Amanita 'egg' shows the outline of a cap and gills when sliced top to bottom. A puffball is uniform white inside." }
+    ]
+  },
+  {
+    "id": "pleurotus-ostreatus",
+    "common": "Oyster Mushroom",
+    "latin": "Pleurotus ostreatus",
+    "toxicity": "edible",
+    "features": {
+      "cap": "Shell or fan-shaped, white to grey-brown, in overlapping clusters",
+      "underside": "White gills running down to the base",
+      "stipe": "Short and off-centre, or absent",
+      "sporePrint": "White to lilac-grey",
+      "habitat": "Dead hardwood, cool seasons from fall to spring"
+    },
+    "lookalikes": [
+      { "id": "hericium-erinaceus", "tell": "Lion's Mane has hanging icicle-like spines instead of gills, and no cap." }
+    ]
+  },
+  {
+    "id": "hericium-erinaceus",
+    "common": "Lion's Mane",
+    "latin": "Hericium erinaceus",
+    "toxicity": "edible",
+    "features": {
+      "cap": "No cap; a white mass of hanging spines",
+      "underside": "Icicle-like spines 1–5 cm long",
+      "stipe": "None; attached to wood",
+      "sporePrint": "White",
+      "habitat": "Wounds on living hardwoods, especially oak and beech, fall"
+    },
+    "lookalikes": [
+      { "id": "pleurotus-ostreatus", "tell": "Oyster Mushrooms have fan-shaped caps with gills underneath." }
+    ]
+  }
+]

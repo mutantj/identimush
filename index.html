@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Identimush</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,500;0,700;1,500&family=Work+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <h1 class="brand">Identimush</h1>
+    <div class="level" aria-live="polite">
+      <span id="level-label">Level 1</span>
+      <div class="progress" role="progressbar" aria-label="Progress to next level">
+        <div id="progress-fill" class="progress-fill"></div>
+      </div>
+    </div>
+  </header>
+
+  <main id="app">
+    <!-- Start screen -->
+    <section id="start" class="panel">
+      <h2>Learn to tell them apart</h2>
+      <p>Look at the photos, pick the species, then read why it's that one. Get answers right to level up: common names first, Latin names later.</p>
+      <p class="warning">This is a learning game, not a foraging guide. Never eat a wild mushroom based on a photo or an app.</p>
+      <button id="start-btn" class="primary">Start</button>
+      <button id="reset-btn" class="quiet">Reset progress</button>
+    </section>
+
+    <!-- Question -->
+    <section id="question" class="panel" hidden>
+      <figure class="specimen">
+        <img id="photo" alt="Mushroom to identify">
+        <figcaption id="credit" class="credit"></figcaption>
+      </figure>
+      <div id="thumbs" class="thumbs"></div>
+      <h2 id="prompt">What is this?</h2>
+      <div id="choices" class="choices"></div>
+      <div id="feedback" class="feedback" hidden></div>
+    </section>
+
+    <!-- Error -->
+    <section id="error" class="panel" hidden></section>
+  </main>
+
+  <div id="toast" class="toast" hidden></div>
+
+  <script src="js/game.js"></script>
+</body>
+</html>

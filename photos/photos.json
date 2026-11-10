@@ -1,0 +1,727 @@
+{
+  "agaricus-campestris": {
+    "latin": "Agaricus campestris",
+    "photos": [
+      {
+        "file": "agaricus-campestris/1.jpg",
+        "creator": "IDClaire",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/6251833651"
+      },
+      {
+        "file": "agaricus-campestris/2.jpg",
+        "creator": "Gary Rogers",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/6274145305"
+      },
+      {
+        "file": "agaricus-campestris/3.jpg",
+        "creator": "Gemma Wyatt & Sean Riha",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/6499631847"
+      },
+      {
+        "file": "agaricus-campestris/4.jpg",
+        "creator": "Jacob Weston",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/6352761926"
+      },
+      {
+        "file": "agaricus-campestris/5.jpg",
+        "creator": "Ricardo Betancourt S\u00e1nchez",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/6413401775"
+      },
+      {
+        "file": "agaricus-campestris/6.jpg",
+        "creator": "Reuben A Stugart",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/6871536825"
+      }
+    ]
+  },
+  "amanita-bisporigera": {
+    "latin": "Amanita bisporigera",
+    "photos": [
+      {
+        "file": "amanita-bisporigera/1.jpg",
+        "creator": "Ingolf Askevold",
+        "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+        "source": "https://www.gbif.org/occurrence/6567293458"
+      },
+      {
+        "file": "amanita-bisporigera/2.jpg",
+        "creator": "Bryce Thorson",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/6871251804"
+      },
+      {
+        "file": "amanita-bisporigera/3.jpg",
+        "creator": "Drew Palmer",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/6431759318"
+      },
+      {
+        "file": "amanita-bisporigera/4.jpg",
+        "creator": "Nathan Cobbett",
+        "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+        "source": "https://www.gbif.org/occurrence/6441043456"
+      },
+      {
+        "file": "amanita-bisporigera/5.jpg",
+        "creator": "SiphonophoreSlinger",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/6441328813"
+      },
+      {
+        "file": "amanita-bisporigera/6.jpg",
+        "creator": "Julie Travaglini",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/6479423427"
+      }
+    ]
+  },
+  "cantharellus-cibarius": {
+    "latin": "Cantharellus cibarius",
+    "photos": [
+      {
+        "file": "cantharellus-cibarius/1.jpg",
+        "creator": "feralist",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/6551117315"
+      },
+      {
+        "file": "cantharellus-cibarius/2.jpg",
+        "creator": "Sam Bucciarelli",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/6552324554"
+      },
+      {
+        "file": "cantharellus-cibarius/3.jpg",
+        "creator": "Matt Pelikan",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/6552894795"
+      }
+    ]
+  },
+  "omphalotus-illudens": {
+    "latin": "Omphalotus illudens",
+    "photos": [
+      {
+        "file": "omphalotus-illudens/1.jpg",
+        "creator": "werealljustwalkingeachotherhome",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/6320730535"
+      },
+      {
+        "file": "omphalotus-illudens/2.jpg",
+        "creator": "wiregrasser",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/6398698164"
+      },
+      {
+        "file": "omphalotus-illudens/3.jpg",
+        "creator": "floatingturkey",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/6413276483"
+      },
+      {
+        "file": "omphalotus-illudens/4.jpg",
+        "creator": "floatingturkey",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/6413731961"
+      },
+      {
+        "file": "omphalotus-illudens/5.jpg",
+        "creator": "Ben Gruhot",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/6422310094"
+      },
+      {
+        "file": "omphalotus-illudens/6.jpg",
+        "creator": "Adam Knapp",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/6431036599"
+      }
+    ]
+  },
+  "morchella-americana": {
+    "latin": "Morchella americana",
+    "photos": [
+      {
+        "file": "morchella-americana/1.jpg",
+        "creator": "Niyan Shehan",
+        "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+        "source": "https://www.gbif.org/occurrence/6178952650"
+      },
+      {
+        "file": "morchella-americana/2.jpg",
+        "creator": "Niyan Shehan",
+        "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+        "source": "https://www.gbif.org/occurrence/6179294312"
+      },
+      {
+        "file": "morchella-americana/3.jpg",
+        "creator": "Ben Gruhot",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/6187936833"
+      },
+      {
+        "file": "morchella-americana/4.jpg",
+        "creator": "Ben Gruhot",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/6188114506"
+      },
+      {
+        "file": "morchella-americana/5.jpg",
+        "creator": "Conway Hawn",
+        "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+        "source": "https://www.gbif.org/occurrence/6188297040"
+      },
+      {
+        "file": "morchella-americana/6.jpg",
+        "creator": "Daniel J. Layton",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/6188323970"
+      }
+    ]
+  },
+  "gyromitra-esculenta": {
+    "latin": "Gyromitra esculenta",
+    "photos": [
+      {
+        "file": "gyromitra-esculenta/1.jpg",
+        "creator": "Vitaliy Maslyanchuk",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/6518542993"
+      },
+      {
+        "file": "gyromitra-esculenta/2.jpg",
+        "creator": "Ashley Darst",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/6252896281"
+      },
+      {
+        "file": "gyromitra-esculenta/3.jpg",
+        "creator": "Michael Nerrie",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/6321001342"
+      },
+      {
+        "file": "gyromitra-esculenta/4.jpg",
+        "creator": "Christian Back",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/6334321014"
+      }
+    ]
+  },
+  "chlorophyllum-rhacodes": {
+    "latin": "Chlorophyllum rhacodes",
+    "photos": [
+      {
+        "file": "chlorophyllum-rhacodes/1.jpg",
+        "creator": "Hydrocycler (Elizabeth Dougherty)",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/6131395555"
+      },
+      {
+        "file": "chlorophyllum-rhacodes/2.jpg",
+        "creator": "allan5519",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/6452178869"
+      },
+      {
+        "file": "chlorophyllum-rhacodes/3.jpg",
+        "creator": "Dustin",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/6500011682"
+      },
+      {
+        "file": "chlorophyllum-rhacodes/4.jpg",
+        "creator": "David LaMagna",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/6518821942"
+      },
+      {
+        "file": "chlorophyllum-rhacodes/5.jpg",
+        "creator": "Jared Lincenberg",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/5198574234"
+      }
+    ]
+  },
+  "chlorophyllum-molybdites": {
+    "latin": "Chlorophyllum molybdites",
+    "photos": [
+      {
+        "file": "chlorophyllum-molybdites/1.jpg",
+        "creator": "Northcut",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/6185856344"
+      },
+      {
+        "file": "chlorophyllum-molybdites/2.jpg",
+        "creator": "Texas Bird Family",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/6235419331"
+      },
+      {
+        "file": "chlorophyllum-molybdites/3.jpg",
+        "creator": "Kesava Garimella",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/6236251445"
+      }
+    ]
+  },
+  "armillaria-mellea": {
+    "latin": "Armillaria mellea",
+    "photos": [
+      {
+        "file": "armillaria-mellea/1.jpg",
+        "creator": "dorian",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/5938135014"
+      },
+      {
+        "file": "armillaria-mellea/2.jpg",
+        "creator": "Kat",
+        "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+        "source": "https://www.gbif.org/occurrence/5938138196"
+      },
+      {
+        "file": "armillaria-mellea/3.jpg",
+        "creator": "common_snowball",
+        "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+        "source": "https://www.gbif.org/occurrence/5938385951"
+      },
+      {
+        "file": "armillaria-mellea/4.jpg",
+        "creator": "Chris Sulots",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/5938509477"
+      },
+      {
+        "file": "armillaria-mellea/5.jpg",
+        "creator": "Dorothy Johnson",
+        "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+        "source": "https://www.gbif.org/occurrence/6129927731"
+      },
+      {
+        "file": "armillaria-mellea/6.jpg",
+        "creator": "Irina Mitine",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/6130152859"
+      }
+    ]
+  },
+  "galerina-marginata": {
+    "latin": "Galerina marginata",
+    "photos": [
+      {
+        "file": "galerina-marginata/1.jpg",
+        "creator": "Hill Craddock",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/6129830083"
+      },
+      {
+        "file": "galerina-marginata/2.jpg",
+        "creator": "Alex",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/6129846985"
+      },
+      {
+        "file": "galerina-marginata/3.jpg",
+        "creator": "Mandy Hackney",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/6129868169"
+      },
+      {
+        "file": "galerina-marginata/4.jpg",
+        "creator": "Alex",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/6130112619"
+      },
+      {
+        "file": "galerina-marginata/5.jpg",
+        "creator": "Alex",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/6130231903"
+      },
+      {
+        "file": "galerina-marginata/6.jpg",
+        "creator": "moorebuesing",
+        "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+        "source": "https://www.gbif.org/occurrence/6130386345"
+      }
+    ]
+  },
+  "boletus-edulis": {
+    "latin": "Boletus edulis",
+    "photos": [
+      {
+        "file": "boletus-edulis/1.jpg",
+        "creator": "reagan peschke",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/6133313482"
+      },
+      {
+        "file": "boletus-edulis/2.jpg",
+        "creator": "Dutza K.",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/6320128753"
+      },
+      {
+        "file": "boletus-edulis/3.jpg",
+        "creator": "Chuck Wilson",
+        "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+        "source": "https://www.gbif.org/occurrence/6334322326"
+      },
+      {
+        "file": "boletus-edulis/4.jpg",
+        "creator": "Chuck Wilson",
+        "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+        "source": "https://www.gbif.org/occurrence/6334537419"
+      },
+      {
+        "file": "boletus-edulis/5.jpg",
+        "creator": "calland glass",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/6519046229"
+      },
+      {
+        "file": "boletus-edulis/6.jpg",
+        "creator": "Leanne Stacy Reitan",
+        "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+        "source": "https://www.gbif.org/occurrence/6413368377"
+      }
+    ]
+  },
+  "tylopilus-felleus": {
+    "latin": "Tylopilus felleus",
+    "photos": [
+      {
+        "file": "tylopilus-felleus/1.jpg",
+        "creator": "delognut",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/6578987485"
+      },
+      {
+        "file": "tylopilus-felleus/2.jpg",
+        "creator": "delognut",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/6579684643"
+      },
+      {
+        "file": "tylopilus-felleus/3.jpg",
+        "creator": "delognut",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/6579762776"
+      },
+      {
+        "file": "tylopilus-felleus/4.jpg",
+        "creator": "Fluff Berger",
+        "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+        "source": "https://www.gbif.org/occurrence/6430978521"
+      },
+      {
+        "file": "tylopilus-felleus/5.jpg",
+        "creator": "SiphonophoreSlinger",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/6431571657"
+      },
+      {
+        "file": "tylopilus-felleus/6.jpg",
+        "creator": "sgmur",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/6451649527"
+      }
+    ]
+  },
+  "amanita-muscaria": {
+    "latin": "Amanita muscaria",
+    "photos": [
+      {
+        "file": "amanita-muscaria/1.jpg",
+        "creator": "Chris Sulots",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/5938036492"
+      },
+      {
+        "file": "amanita-muscaria/2.jpg",
+        "creator": "Megan \u201cMoe\u201d Morelock",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/5938099641"
+      },
+      {
+        "file": "amanita-muscaria/3.jpg",
+        "creator": "wildflowerwatching",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/5938253482"
+      },
+      {
+        "file": "amanita-muscaria/4.jpg",
+        "creator": "caseyhh",
+        "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+        "source": "https://www.gbif.org/occurrence/5938354552"
+      },
+      {
+        "file": "amanita-muscaria/5.jpg",
+        "creator": "wildflowerwatching",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/5938356147"
+      },
+      {
+        "file": "amanita-muscaria/6.jpg",
+        "creator": "caseyhh",
+        "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+        "source": "https://www.gbif.org/occurrence/5938422924"
+      }
+    ]
+  },
+  "amanita-phalloides": {
+    "latin": "Amanita phalloides",
+    "photos": [
+      {
+        "file": "amanita-phalloides/1.jpg",
+        "creator": "gretchenparadis",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/5938125087"
+      },
+      {
+        "file": "amanita-phalloides/2.jpg",
+        "creator": "Adam J. Searcy",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/5938215642"
+      },
+      {
+        "file": "amanita-phalloides/3.jpg",
+        "creator": "Peter Brastow",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/5938237861"
+      },
+      {
+        "file": "amanita-phalloides/4.jpg",
+        "creator": "Sarinda Newell",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/5938309937"
+      },
+      {
+        "file": "amanita-phalloides/5.jpg",
+        "creator": "Chuck Wilson",
+        "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+        "source": "https://www.gbif.org/occurrence/5938359762"
+      },
+      {
+        "file": "amanita-phalloides/6.jpg",
+        "creator": "P Holroyd",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/5938394354"
+      }
+    ]
+  },
+  "laetiporus-sulphureus": {
+    "latin": "Laetiporus sulphureus",
+    "photos": [
+      {
+        "file": "laetiporus-sulphureus/1.jpg",
+        "creator": "Sean Feirstein",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/6159296104"
+      },
+      {
+        "file": "laetiporus-sulphureus/2.jpg",
+        "creator": "toad-wife",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/6163313458"
+      },
+      {
+        "file": "laetiporus-sulphureus/3.jpg",
+        "creator": "toad-wife",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/6869309690"
+      },
+      {
+        "file": "laetiporus-sulphureus/4.jpg",
+        "creator": "Aidan Hamilton",
+        "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+        "source": "https://www.gbif.org/occurrence/6178738677"
+      },
+      {
+        "file": "laetiporus-sulphureus/5.jpg",
+        "creator": "Julie Travaglini",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/6184910057"
+      },
+      {
+        "file": "laetiporus-sulphureus/6.jpg",
+        "creator": "David Wilkins",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/6195484398"
+      }
+    ]
+  },
+  "grifola-frondosa": {
+    "latin": "Grifola frondosa",
+    "photos": [
+      {
+        "file": "grifola-frondosa/1.jpg",
+        "creator": "Fluff Berger",
+        "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+        "source": "https://www.gbif.org/occurrence/6499101931"
+      },
+      {
+        "file": "grifola-frondosa/2.jpg",
+        "creator": "Erica Tava Johnson",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/6520378186"
+      },
+      {
+        "file": "grifola-frondosa/3.jpg",
+        "creator": "aerospaceeb",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/6550770261"
+      },
+      {
+        "file": "grifola-frondosa/4.jpg",
+        "creator": "cdn_explore",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/6550863237"
+      },
+      {
+        "file": "grifola-frondosa/5.jpg",
+        "creator": "Andres Garcia",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/6550866686"
+      },
+      {
+        "file": "grifola-frondosa/6.jpg",
+        "creator": "Jason Webb",
+        "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+        "source": "https://www.gbif.org/occurrence/6551039509"
+      }
+    ]
+  },
+  "calvatia-gigantea": {
+    "latin": "Calvatia gigantea",
+    "photos": [
+      {
+        "file": "calvatia-gigantea/1.jpg",
+        "creator": "Erica Tava Johnson",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/6430840556"
+      },
+      {
+        "file": "calvatia-gigantea/2.jpg",
+        "creator": "toad-wife",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/6273720590"
+      },
+      {
+        "file": "calvatia-gigantea/3.jpg",
+        "creator": "nuthatchnicole",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/6871524993"
+      },
+      {
+        "file": "calvatia-gigantea/4.jpg",
+        "creator": "Carter Ertel",
+        "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+        "source": "https://www.gbif.org/occurrence/6431806421"
+      },
+      {
+        "file": "calvatia-gigantea/5.jpg",
+        "creator": "Larry Jensen",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/6498171259"
+      },
+      {
+        "file": "calvatia-gigantea/6.jpg",
+        "creator": "Andrew Murray",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/6498247720"
+      }
+    ]
+  },
+  "pleurotus-ostreatus": {
+    "latin": "Pleurotus ostreatus",
+    "photos": [
+      {
+        "file": "pleurotus-ostreatus/1.jpg",
+        "creator": "Dan Vickers",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/5938048318"
+      },
+      {
+        "file": "pleurotus-ostreatus/2.jpg",
+        "creator": "Robert Hoard",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/6129883668"
+      },
+      {
+        "file": "pleurotus-ostreatus/3.jpg",
+        "creator": "Pam Morgan",
+        "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+        "source": "https://www.gbif.org/occurrence/6130717562"
+      },
+      {
+        "file": "pleurotus-ostreatus/4.jpg",
+        "creator": "Ben Gruhot",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/6131041112"
+      },
+      {
+        "file": "pleurotus-ostreatus/5.jpg",
+        "creator": "Kirstie S",
+        "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+        "source": "https://www.gbif.org/occurrence/6131047520"
+      },
+      {
+        "file": "pleurotus-ostreatus/6.jpg",
+        "creator": "florawhite",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/6162838591"
+      }
+    ]
+  },
+  "hericium-erinaceus": {
+    "latin": "Hericium erinaceus",
+    "photos": [
+      {
+        "file": "hericium-erinaceus/1.jpg",
+        "creator": "Sarinda Newell",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/5938145400"
+      },
+      {
+        "file": "hericium-erinaceus/2.jpg",
+        "creator": "Chuck Wilson",
+        "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+        "source": "https://www.gbif.org/occurrence/6129983514"
+      },
+      {
+        "file": "hericium-erinaceus/3.jpg",
+        "creator": "Dmitry Podobreev",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/6130301364"
+      },
+      {
+        "file": "hericium-erinaceus/4.jpg",
+        "creator": "Tom Kennedy",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/6130729665"
+      },
+      {
+        "file": "hericium-erinaceus/5.jpg",
+        "creator": "Krystal Sumner",
+        "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+        "source": "https://www.gbif.org/occurrence/6131205715"
+      },
+      {
+        "file": "hericium-erinaceus/6.jpg",
+        "creator": "wildrollo",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/6131229811"
+      }
+    ]
+  }
+}
