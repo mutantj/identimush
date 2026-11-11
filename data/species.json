@@ -12,7 +12,8 @@
       "habitat": "Grass, lawns and pastures, summer to fall"
     },
     "lookalikes": [
-      { "id": "amanita-bisporigera", "tell": "The Destroying Angel has white gills, a white spore print and a sac-like volva at the base. Always dig up the whole base." }
+      { "id": "amanita-bisporigera", "tell": "The Destroying Angel has white gills, a white spore print and a sac-like volva at the base. Always dig up the whole base." },
+      { "id": "agaricus-xanthodermus", "tell": "The Yellow-staining Mushroom turns bright chrome-yellow when you cut the stem base and smells of ink or phenol. The Meadow Mushroom smells pleasant and doesn't stain yellow." }
     ]
   },
   {
@@ -46,7 +47,8 @@
       "other": "Fruity, apricot-like smell"
     },
     "lookalikes": [
-      { "id": "omphalotus-illudens", "tell": "The Jack-o'-Lantern has sharp true gills, grows in dense clusters on wood or buried roots, and is orange all the way through." }
+      { "id": "omphalotus-illudens", "tell": "The Jack-o'-Lantern has sharp true gills, grows in dense clusters on wood or buried roots, and is orange all the way through." },
+      { "id": "hypomyces-lactifluorum", "tell": "The Lobster Mushroom is red-orange, hard and heavy, with a pimply crust, bumpy ridges instead of forked ones, and white flesh inside." }
     ]
   },
   {
@@ -298,7 +300,8 @@
       "habitat": "Dead hardwood, cool seasons from fall to spring"
     },
     "lookalikes": [
-      { "id": "hericium-erinaceus", "tell": "Lion's Mane has hanging icicle-like spines instead of gills, and no cap." }
+      { "id": "hericium-erinaceus", "tell": "Lion's Mane has hanging icicle-like spines instead of gills, and no cap." },
+      { "id": "pleurocybella-porrigens", "tell": "Angel Wings are thinner, smaller and pure white, and grow on rotting conifer wood rather than hardwood." }
     ]
   },
   {
@@ -315,6 +318,93 @@
     },
     "lookalikes": [
       { "id": "pleurotus-ostreatus", "tell": "Oyster Mushrooms have fan-shaped caps with gills underneath." }
+    ]
+  },
+  {
+    "id": "pleurocybella-porrigens",
+    "common": "Angel Wing",
+    "latin": "Pleurocybella porrigens",
+    "toxicity": "toxic",
+    "features": {
+      "cap": "Pure white, thin, fan or ear-shaped, 2–10 cm, in overlapping groups",
+      "underside": "Narrow, crowded white gills",
+      "stipe": "None, or a tiny stub",
+      "sporePrint": "White",
+      "habitat": "Rotting conifer wood, especially hemlock, late summer to fall",
+      "other": "Linked to deaths in Japan in 2004, mainly in people with kidney disease"
+    },
+    "lookalikes": [
+      { "id": "pleurotus-ostreatus", "tell": "Oyster Mushrooms are thicker and fleshier, often grey to brown, and usually grow on hardwood." }
+    ]
+  },
+  {
+    "id": "hypomyces-lactifluorum",
+    "common": "Lobster Mushroom",
+    "latin": "Hypomyces lactifluorum",
+    "toxicity": "edible-caution",
+    "features": {
+      "cap": "Bright orange-red crust over a twisted, funnel-shaped mushroom",
+      "underside": "No real gills, only blunt bumpy ridges where the gills used to be",
+      "stipe": "Thick, same colour as the cap; flesh white and firm",
+      "sporePrint": "Not useful for ID",
+      "habitat": "On soil in mixed woods, summer to fall",
+      "other": "A mould that covers a Russula or Lactarius host. Pimply surface. Skip any that are soft, mouldy or smell off."
+    },
+    "lookalikes": [
+      { "id": "cantharellus-cibarius", "tell": "Chanterelles are yellow-orange with forked ridges, a fruity smell and stringy flesh, and have no pimply crust." }
+    ]
+  },
+  {
+    "id": "agaricus-xanthodermus",
+    "common": "Yellow-staining Mushroom",
+    "latin": "Agaricus xanthodermus",
+    "toxicity": "toxic",
+    "features": {
+      "cap": "White and smooth, can turn greyish and squarish with age, 5–15 cm",
+      "underside": "Free gills, pale pink then chocolate brown",
+      "stipe": "White with a thick ring; base turns bright chrome-yellow when cut",
+      "sporePrint": "Chocolate brown",
+      "habitat": "Lawns, parks, gardens and wood edges, often in groups; introduced, most common in the West",
+      "other": "Unpleasant ink or phenol smell, strongest in the cut stem base"
+    },
+    "lookalikes": [
+      { "id": "agaricus-campestris", "tell": "The Meadow Mushroom is smaller, smells pleasant and doesn't stain yellow at the base." },
+      { "id": "agaricus-arvensis", "tell": "The Horse Mushroom smells of anise or almond and only yellows slowly on the cap, not bright yellow in the stem base." }
+    ]
+  },
+  {
+    "id": "agaricus-arvensis",
+    "common": "Horse Mushroom",
+    "latin": "Agaricus arvensis",
+    "toxicity": "edible-caution",
+    "features": {
+      "cap": "Large, white to cream, smooth, slowly bruises yellowish, 8–20 cm",
+      "underside": "Free gills, greyish pink then dark brown; young veil has a cogwheel pattern",
+      "stipe": "White, large two-layered ring, no volva",
+      "sporePrint": "Chocolate brown",
+      "habitat": "Pastures and grassy places, often in rings, summer to fall",
+      "other": "Anise or almond smell"
+    },
+    "lookalikes": [
+      { "id": "agaricus-xanthodermus", "tell": "The Yellow-staining Mushroom smells of ink or phenol and turns bright chrome-yellow in the cut stem base." },
+      { "id": "amanita-bisporigera", "tell": "The Destroying Angel keeps white gills, has a white spore print and a sac-like volva at the base." }
+    ]
+  },
+  {
+    "id": "agaricus-augustus",
+    "common": "The Prince",
+    "latin": "Agaricus augustus",
+    "toxicity": "edible",
+    "features": {
+      "cap": "Golden-brown to brown fibrous scales on a pale background, 10–25 cm",
+      "underside": "Free gills, whitish then pinkish then dark brown",
+      "stipe": "Tall, shaggy below a large ring, bruises yellow",
+      "sporePrint": "Chocolate brown",
+      "habitat": "Disturbed ground, roadsides and conifer woods, mainly in the West, summer to fall",
+      "other": "Strong almond smell"
+    },
+    "lookalikes": [
+      { "id": "agaricus-xanthodermus", "tell": "The Yellow-staining Mushroom has a smooth white cap without brown scales and smells of ink or phenol." }
     ]
   }
 ]

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Hand-drawn style mushroom icon for Identimush -->
+  <defs>
+    <!-- wobble the lines so they look drawn by hand -->
+    <filter id="rough" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.09" numOctaves="2" seed="7"/>
+      <feDisplacementMap in="SourceGraphic" scale="1.8"/>
+    </filter>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="#1e2a21"/>
+
+  <g filter="url(#rough)" stroke="#141c16" stroke-linecap="round" stroke-linejoin="round">
+    <!-- grass tufts -->
+    <path d="M13 55c1-3 1.5-5 1-8M16 55c.5-2 2-4 4-5M11 55c-.5-2-1.5-3.5-3-4.5" fill="none" stroke="#9db08a" stroke-width="1.6"/>
+    <path d="M49 55c.2-2.5 1-4.5 2.6-6M52 55c1-2 2.6-3 4.6-3.4M47 55c-.6-1.6-1.8-2.8-3.2-3.4" fill="none" stroke="#9db08a" stroke-width="1.6"/>
+    <!-- ground line, slightly wobbly -->
+    <path d="M7 55.3c6-.6 11 .4 17-.2 6-.5 11 .5 17 .1 6-.4 10 .3 16-.2" fill="none" stroke="#9db08a" stroke-width="1.4" opacity=".7"/>
+
+    <!-- stem -->
+    <path d="M26.4 34.5c-.4 5.2-1.6 9.6-3.6 13.2-1.2 2.2-.6 4.9 2.6 5.9 4.4 1.3 10 1.3 14.2-.1 2.8-.9 3-3.3 1.8-5.6-1.9-3.6-2.9-8.1-3.2-13.4"
+          fill="#ece6d6" stroke-width="2"/>
+    <!-- sketchy over-stroke on stem -->
+    <path d="M27.2 35.6c-.6 4.9-1.8 9.1-3.7 12.5M37.6 35.4c.4 4.8 1.5 9 3.2 12.4" fill="none" stroke-width=".8" opacity=".55"/>
+    <!-- stem shading hatch -->
+    <path d="M36 41l2.2-1.4M36.5 44.2l2.6-1.6M37.4 47.4l2.6-1.6M38.6 50.4l2.2-1.4" fill="none" stroke-width=".9" opacity=".45"/>
+    <!-- ring -->
+    <path d="M26 38.6c2.2 1.6 9.6 1.8 12.4-.2" fill="none" stroke-width="1.5"/>
+
+    <!-- gills band under the cap -->
+    <path d="M10.5 33.6c6.5 3.4 36.5 3.8 43.4-.4-1.5 2.4-7 4.4-21.6 4.6-14.2.1-20.2-1.8-21.8-4.2z" fill="#b8b2a2" stroke-width="1.6"/>
+    <path d="M18 35.6l1.4 1.6M23 36.4l.9 1.4M41 36.4l-.9 1.4M46 35.6l-1.4 1.6" fill="none" stroke-width=".8" opacity=".6"/>
+
+    <!-- cap -->
+    <path d="M8.6 33.2C8 23.6 17.6 11.6 31.4 11c14-.6 24.6 10.6 25 21.6.1 1.6-.9 2.3-2.4 2.6-7.4 1.4-15.4 2-22.6 1.9-7.8-.1-15.2-.9-20.8-2.4-1.3-.3-2-.8-2-1.5z"
+          fill="#d0503a" stroke-width="2.2"/>
+    <!-- sketchy second pass on cap outline -->
+    <path d="M10 30.4C10.8 21.4 19.4 12.6 31 12.2c11.8-.4 21.6 8.2 23.8 18.6" fill="none" stroke-width=".8" opacity=".5"/>
+    <!-- cap shading hatch on the right -->
+    <path d="M47.6 19.4l-3.4 4.4M50.4 22.4l-4 5.2M52.6 25.8l-3.8 5M54.2 29.4l-2.4 3.2" fill="none" stroke-width="1" opacity=".4"/>
+    <!-- highlight on the left -->
+    <path d="M15.6 24.6c1.8-4.4 5.4-7.8 9.6-9.6" fill="none" stroke="#f4b9a6" stroke-width="1.8" opacity=".75"/>
+
+    <!-- spots: uneven blobs -->
+    <path d="M28.6 17.2c1.4-1.4 4.6-1.2 5.4.6.7 1.6-.9 3.2-3 3.3-2.4.1-3.6-2.4-2.4-3.9z" fill="#ece6d6" stroke-width="1.2"/>
+    <path d="M18.4 25.4c1-1.6 3.8-1.6 4.4.2.5 1.6-.9 3-2.6 2.8-1.8-.2-2.6-1.6-1.8-3z" fill="#ece6d6" stroke-width="1.2"/>
+    <path d="M39.6 22.2c1.2-1.2 3.6-.8 4 .8.4 1.4-.9 2.6-2.4 2.4-1.6-.2-2.5-2-1.6-3.2z" fill="#ece6d6" stroke-width="1.2"/>
+    <path d="M30.4 27.6c.9-1 2.7-.8 3 .4.3 1.1-.6 2-1.8 1.9-1.2-.1-1.9-1.4-1.2-2.3z" fill="#ece6d6" stroke-width="1.1"/>
+    <path d="M46.6 29.2c.7-.9 2.2-.7 2.5.3.2.9-.5 1.6-1.4 1.6-1-.1-1.6-1.1-1.1-1.9z" fill="#ece6d6" stroke-width="1"/>
+    <path d="M13.6 31c.5-.8 1.8-.7 2 .2.2.8-.5 1.4-1.2 1.3-.8-.1-1.2-.8-.8-1.5z" fill="#ece6d6" stroke-width="1"/>
+  </g>
+</svg>

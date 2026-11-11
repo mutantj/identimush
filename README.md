@@ -28,7 +28,10 @@ Opening `index.html` directly won't work: browsers block loading the JSON files 
 
 ## Add a species
 
-1. Add its Latin name to `SPECIES` in `scripts/fetch_photos.py` and rerun it.
+1. Add its Latin name to `SPECIES` in `scripts/fetch_photos.py`, then fetch just that species (keeps existing photos):
+   ```
+   python scripts/fetch_photos.py "Agaricus augustus"
+   ```
 2. Add an entry to `data/species.json`. The `id` is the Latin name in lowercase with dashes.
 
 ## Publish on GitHub Pages

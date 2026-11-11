@@ -4,18 +4,21 @@ Identimush v1 photo fetcher (GBIF).
 Downloads CC-licensed North American mushroom photos for each species
 and writes photos/photos.json with credits for every image.
 
-Run:  python fetch_photos.py
+Run:  python fetch_photos.py                    (all species)
+      python fetch_photos.py "Agaricus augustus"  (just these)
+Existing photos are kept; each species is topped up to PHOTOS_PER_SPECIES.
 Needs: Python 3.8+ (no extra packages)
 """
 
 import json
 import os
+import sys
 import time
 import urllib.parse
 import urllib.request
 
 # ---- Settings -------------------------------------------------------------
-PHOTOS_PER_SPECIES = 6
+PHOTOS_PER_SPECIES = 10
 ALLOW_NONCOMMERCIAL = False   # True = also accept CC BY-NC photos
 OUT_DIR = os.path.join(os.path.dirname(__file__), "..", "photos")
 API = "https://api.gbif.org/v1"
@@ -40,6 +43,11 @@ SPECIES = [
     "Calvatia gigantea",
     "Pleurotus ostreatus",
     "Hericium erinaceus",
+    "Pleurocybella porrigens",
+    "Hypomyces lactifluorum",
+    "Agaricus xanthodermus",
+    "Agaricus arvensis",
+    "Agaricus augustus",
 ]
 
 HEADERS = {"User-Agent": "Identimush/0.1 (educational mushroom ID game)"}
@@ -85,34 +93,53 @@ def taxon_key(name):
 
 
 # ---- Main -----------------------------------------------------------------
-def fetch_species(name):
+def occurrences(key, max_results=500):
+    """Yield North American occurrences with images, 100 per page."""
+    for offset in range(0, max_results, 100):
+        params = urllib.parse.urlencode({
+            "taxonKey": key,
+            "mediaType": "StillImage",
+            "continent": "NORTH_AMERICA",
+            "limit": 100,
+            "offset": offset,
+        })
+        page = get_json(f"{API}/occurrence/search?{params}")
+        yield from page["results"]
+        if page.get("endOfRecords"):
+            return
+
+
+def fetch_species(name, photos):
+    """Top up `photos` (existing manifest entries) to PHOTOS_PER_SPECIES.
+
+    Existing photos are kept; observations already used are skipped.
+    """
+    photos = list(photos)
+    if len(photos) >= PHOTOS_PER_SPECIES:
+        return photos
+
     key = taxon_key(name)
     if not key:
         print(f"  ! No GBIF match for {name}")
-        return []
-
-    params = urllib.parse.urlencode({
-        "taxonKey": key,
-        "mediaType": "StillImage",
-        "continent": "NORTH_AMERICA",
-        "limit": 100,
-    })
-    results = get_json(f"{API}/occurrence/search?{params}")["results"]
+        return photos
 
     folder = os.path.join(OUT_DIR, slug(name))
     os.makedirs(folder, exist_ok=True)
-    photos, seen = [], set()
+    used = {p["source"] for p in photos}
+    next_num = max([int(os.path.splitext(os.path.basename(p["file"]))[0]) for p in photos] + [0]) + 1
 
-    for occ in results:
+    for occ in occurrences(key):
+        if len(photos) >= PHOTOS_PER_SPECIES:
+            break
+        source = f"https://www.gbif.org/occurrence/{occ['key']}"
+        if source in used:
+            continue
         for media in occ.get("media", []):
-            if len(photos) >= PHOTOS_PER_SPECIES:
-                return photos
             url = media.get("identifier")
-            if not url or url in seen or not licence_ok(media.get("license")):
+            if not url or not licence_ok(media.get("license")):
                 continue
-            seen.add(url)
 
-            filename = f"{len(photos) + 1}.jpg"
+            filename = f"{next_num}.jpg"
             path = os.path.join(folder, filename)
             try:
                 req = urllib.request.Request(smaller_url(url), headers=HEADERS)
@@ -122,11 +149,13 @@ def fetch_species(name):
                 print(f"  ! Download failed: {e}")
                 continue
 
+            next_num += 1
+            used.add(source)
             photos.append({
                 "file": f"{slug(name)}/{filename}",
                 "creator": media.get("creator") or media.get("rightsHolder") or "Unknown",
                 "license": media.get("license"),
-                "source": f"https://www.gbif.org/occurrence/{occ['key']}",
+                "source": source,
             })
             time.sleep(1)  # be polite to image hosts
             break  # one photo per observation = more variety
@@ -134,20 +163,31 @@ def fetch_species(name):
     return photos
 
 
-def main():
+def main(names):
+    """Top up the given species, or all of SPECIES if none are given.
+
+    Photos already in photos.json are kept. To refetch a species from
+    scratch, delete its folder and its entry in photos.json first.
+    """
+    manifest_path = os.path.join(OUT_DIR, "photos.json")
     manifest = {}
-    for name in SPECIES:
+    if os.path.exists(manifest_path):
+        with open(manifest_path) as f:
+            manifest = json.load(f)
+
+    for name in names or SPECIES:
         print(f"{name}...")
-        photos = fetch_species(name)
+        existing = manifest.get(slug(name), {}).get("photos", [])
+        photos = fetch_species(name, existing)
         manifest[slug(name)] = {"latin": name, "photos": photos}
-        print(f"  {len(photos)} photos")
+        print(f"  {len(photos)} photos ({len(photos) - len(existing)} new)")
+        with open(manifest_path, "w") as f:  # save as we go
+            json.dump(manifest, f, indent=2)
         time.sleep(1)
 
-    with open(os.path.join(OUT_DIR, "photos.json"), "w") as f:
-        json.dump(manifest, f, indent=2)
     print(f"\nDone. Credits saved to {OUT_DIR}/photos.json")
 
 
 if __name__ == "__main__":
     os.makedirs(OUT_DIR, exist_ok=True)
-    main()
+    main(sys.argv[1:])
