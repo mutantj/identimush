@@ -20,6 +20,7 @@ body {
 
 h1, h2, h3 { font-family: "Spectral", Georgia, serif; font-weight: 700; line-height: 1.2; }
 .latin { font-family: "Spectral", Georgia, serif; font-style: italic; font-weight: 500; }
+.version { margin: 1.5rem 0 0; font-size: 0.75rem; color: var(--mycelium-dim); }
 .say { display: flex; align-items: center; gap: 0.6rem; margin: 0.3rem 0 0.6rem; color: var(--mycelium-dim); font-size: 0.9rem; }
 .say-btn {
   background: var(--moss-light); color: var(--mycelium); border: 1px solid var(--mycelium-dim);
