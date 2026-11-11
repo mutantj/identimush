@@ -200,6 +200,16 @@ function renderFeedback(chosen, correct) {
     ? el("h3", { class: "result-correct" }, "Correct: ", nameNode(current, "common"))
     : el("h3", { class: "result-wrong" }, "Not quite. This is ", nameNode(current, "common"));
   fb.append(heading, el("div", { class: "latin" }, current.latin));
+  if (current.say) {
+    const audio = new Audio(`audio/${current.id}.wav`);
+    fb.append(el("div", { class: "say" },
+      el("button", {
+        class: "say-btn", type: "button",
+        "aria-label": `Hear how to say ${current.latin}`,
+        onclick: () => { audio.currentTime = 0; audio.play(); },
+      }, "▶ Hear it"),
+      el("span", {}, current.say)));
+  }
   fb.append(el("span", { class: `badge ${current.toxicity}` }, TOXICITY_LABELS[current.toxicity] || current.toxicity));
 
   // Why it's this species

@@ -3,6 +3,7 @@
     "id": "agaricus-campestris",
     "common": "Meadow Mushroom",
     "latin": "Agaricus campestris",
+    "say": "a-GAR-i-kus kam-PES-tris",
     "toxicity": "edible",
     "features": {
       "cap": "White, smooth to silky, 3–10 cm",
@@ -20,6 +21,7 @@
     "id": "amanita-bisporigera",
     "common": "Eastern Destroying Angel",
     "latin": "Amanita bisporigera",
+    "say": "am-a-NYE-ta bye-spor-IJ-er-a",
     "toxicity": "deadly",
     "features": {
       "cap": "Pure white, smooth, 3–10 cm",
@@ -37,6 +39,7 @@
     "id": "cantharellus-cibarius",
     "common": "Golden Chanterelle",
     "latin": "Cantharellus cibarius",
+    "say": "kan-tha-REL-us si-BAIR-ee-us",
     "toxicity": "edible",
     "features": {
       "cap": "Egg-yolk to orange-yellow, wavy edge, becomes funnel-shaped",
@@ -55,6 +58,7 @@
     "id": "omphalotus-illudens",
     "common": "Jack-o'-Lantern",
     "latin": "Omphalotus illudens",
+    "say": "om-fa-LOH-tus il-LOO-denz",
     "toxicity": "toxic",
     "features": {
       "cap": "Bright orange, convex then funnel-shaped",
@@ -72,6 +76,7 @@
     "id": "morchella-americana",
     "common": "Yellow Morel",
     "latin": "Morchella americana",
+    "say": "mor-KEL-a a-mer-i-KAN-a",
     "toxicity": "edible-caution",
     "features": {
       "cap": "Honeycomb of pits and ridges, yellowish to tan, joined to the stem at its bottom edge",
@@ -89,6 +94,7 @@
     "id": "gyromitra-esculenta",
     "common": "False Morel",
     "latin": "Gyromitra esculenta",
+    "say": "jye-roh-MYE-tra es-kew-LEN-ta",
     "toxicity": "deadly",
     "features": {
       "cap": "Brain-like wrinkled lobes, reddish-brown, no true pits; hangs loose like a skirt",
@@ -105,6 +111,7 @@
     "id": "chlorophyllum-rhacodes",
     "common": "Shaggy Parasol",
     "latin": "Chlorophyllum rhacodes",
+    "say": "klor-oh-FIL-um ra-KOH-deez",
     "toxicity": "edible-caution",
     "features": {
       "cap": "7–20 cm, brown centre breaking into shaggy scales over white",
@@ -122,6 +129,7 @@
     "id": "chlorophyllum-molybdites",
     "common": "Green-spored Parasol",
     "latin": "Chlorophyllum molybdites",
+    "say": "klor-oh-FIL-um mol-ib-DYE-teez",
     "toxicity": "toxic",
     "features": {
       "cap": "Large, white with brownish scales",
@@ -139,6 +147,7 @@
     "id": "armillaria-mellea",
     "common": "Honey Mushroom",
     "latin": "Armillaria mellea",
+    "say": "ar-mi-LAIR-ee-a MEL-ee-a",
     "toxicity": "edible-caution",
     "features": {
       "cap": "Honey-yellow to brown, fine dark hairs or scales near the centre",
@@ -156,6 +165,7 @@
     "id": "galerina-marginata",
     "common": "Deadly Galerina",
     "latin": "Galerina marginata",
+    "say": "gal-er-EE-na mar-ji-NAH-ta",
     "toxicity": "deadly",
     "features": {
       "cap": "Small, 1–4 cm, sticky, tan to brown, fades paler as it dries",
@@ -173,6 +183,7 @@
     "id": "boletus-edulis",
     "common": "King Bolete",
     "latin": "Boletus edulis",
+    "say": "boh-LEE-tus ED-yoo-lis",
     "toxicity": "edible",
     "features": {
       "cap": "Brown, bun-shaped, smooth and slightly greasy",
@@ -189,6 +200,7 @@
     "id": "tylopilus-felleus",
     "common": "Bitter Bolete",
     "latin": "Tylopilus felleus",
+    "say": "tye-LOP-i-lus FEL-ee-us",
     "toxicity": "inedible",
     "features": {
       "cap": "Tan to brown, smooth",
@@ -206,6 +218,7 @@
     "id": "amanita-muscaria",
     "common": "Fly Agaric",
     "latin": "Amanita muscaria",
+    "say": "am-a-NYE-ta mus-KAIR-ee-a",
     "toxicity": "toxic",
     "features": {
       "cap": "Red to yellow-orange with white or yellowish warts (volva remnants)",
@@ -223,6 +236,7 @@
     "id": "amanita-phalloides",
     "common": "Death Cap",
     "latin": "Amanita phalloides",
+    "say": "am-a-NYE-ta fa-LOY-deez",
     "toxicity": "deadly",
     "features": {
       "cap": "Olive-green to yellowish bronze, smooth, sometimes one white patch",
@@ -241,6 +255,7 @@
     "id": "laetiporus-sulphureus",
     "common": "Chicken of the Woods",
     "latin": "Laetiporus sulphureus",
+    "say": "lee-TIP-or-us sul-FYOOR-ee-us",
     "toxicity": "edible-caution",
     "features": {
       "cap": "Overlapping shelves, bright orange on top with yellow edges",
@@ -258,6 +273,7 @@
     "id": "grifola-frondosa",
     "common": "Hen of the Woods",
     "latin": "Grifola frondosa",
+    "say": "gri-FOH-la fron-DOH-sa",
     "toxicity": "edible",
     "features": {
       "cap": "Rosette of many grey-brown spoon-shaped caps",
@@ -274,6 +290,7 @@
     "id": "calvatia-gigantea",
     "common": "Giant Puffball",
     "latin": "Calvatia gigantea",
+    "say": "kal-VAY-sha jye-GAN-tee-a",
     "toxicity": "edible-caution",
     "features": {
       "cap": "Large white ball, 10–50 cm, smooth leathery skin",
@@ -291,6 +308,7 @@
     "id": "pleurotus-ostreatus",
     "common": "Oyster Mushroom",
     "latin": "Pleurotus ostreatus",
+    "say": "ploo-ROH-tus os-tree-AY-tus",
     "toxicity": "edible",
     "features": {
       "cap": "Shell or fan-shaped, white to grey-brown, in overlapping clusters",
@@ -308,6 +326,7 @@
     "id": "hericium-erinaceus",
     "common": "Lion's Mane",
     "latin": "Hericium erinaceus",
+    "say": "her-ISS-ee-um er-i-NAY-see-us",
     "toxicity": "edible",
     "features": {
       "cap": "No cap; a white mass of hanging spines",
@@ -324,6 +343,7 @@
     "id": "pleurocybella-porrigens",
     "common": "Angel Wing",
     "latin": "Pleurocybella porrigens",
+    "say": "ploo-roh-sye-BEL-a POR-i-jenz",
     "toxicity": "toxic",
     "features": {
       "cap": "Pure white, thin, fan or ear-shaped, 2–10 cm, in overlapping groups",
@@ -341,6 +361,7 @@
     "id": "hypomyces-lactifluorum",
     "common": "Lobster Mushroom",
     "latin": "Hypomyces lactifluorum",
+    "say": "hye-poh-MYE-seez lak-ti-FLOR-um",
     "toxicity": "edible-caution",
     "features": {
       "cap": "Bright orange-red crust over a twisted, funnel-shaped mushroom",
@@ -358,6 +379,7 @@
     "id": "agaricus-xanthodermus",
     "common": "Yellow-staining Mushroom",
     "latin": "Agaricus xanthodermus",
+    "say": "a-GAR-i-kus zan-thoh-DER-mus",
     "toxicity": "toxic",
     "features": {
       "cap": "White and smooth, can turn greyish and squarish with age, 5–15 cm",
@@ -376,6 +398,7 @@
     "id": "agaricus-arvensis",
     "common": "Horse Mushroom",
     "latin": "Agaricus arvensis",
+    "say": "a-GAR-i-kus ar-VEN-sis",
     "toxicity": "edible-caution",
     "features": {
       "cap": "Large, white to cream, smooth, slowly bruises yellowish, 8–20 cm",
@@ -394,6 +417,7 @@
     "id": "agaricus-augustus",
     "common": "The Prince",
     "latin": "Agaricus augustus",
+    "say": "a-GAR-i-kus aw-GUS-tus",
     "toxicity": "edible",
     "features": {
       "cap": "Golden-brown to brown fibrous scales on a pale background, 10–25 cm",

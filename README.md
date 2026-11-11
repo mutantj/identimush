@@ -32,7 +32,11 @@ Opening `index.html` directly won't work: browsers block loading the JSON files 
    ```
    python scripts/fetch_photos.py "Agaricus augustus"
    ```
-2. Add an entry to `data/species.json`. The `id` is the Latin name in lowercase with dashes.
+2. Add an entry to `data/species.json`. The `id` is the Latin name in lowercase with dashes. `say` is a respelling of the Latin name with the stressed syllables in capitals.
+3. Add the name's phonemes to `PHONEMES` in `scripts/make_audio.py` (cheat sheet at the top of the file), then make its audio (needs `espeak-ng`):
+   ```
+   python scripts/make_audio.py agaricus-augustus
+   ```
 
 ## Publish on GitHub Pages
 
