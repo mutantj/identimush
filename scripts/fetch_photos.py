@@ -7,6 +7,10 @@ and writes photos/photos.json with credits for every image.
 Run:  python fetch_photos.py                    (all species)
       python fetch_photos.py "Agaricus augustus"  (just these)
 Existing photos are kept; each species is topped up to PHOTOS_PER_SPECIES.
+
+To reject a photo, delete its file and rerun. The script notices it's gone,
+adds its observation to photos/skip.json so it's never downloaded again,
+and fetches a replacement. You can also edit skip.json by hand.
 Needs: Python 3.8+ (no extra packages)
 """
 
@@ -109,10 +113,11 @@ def occurrences(key, max_results=500):
             return
 
 
-def fetch_species(name, photos):
+def fetch_species(name, photos, skip=()):
     """Top up `photos` (existing manifest entries) to PHOTOS_PER_SPECIES.
 
-    Existing photos are kept; observations already used are skipped.
+    Existing photos are kept; observations already used or in `skip`
+    (GBIF occurrence URLs) are passed over.
     """
     photos = list(photos)
     if len(photos) >= PHOTOS_PER_SPECIES:
@@ -125,7 +130,7 @@ def fetch_species(name, photos):
 
     folder = os.path.join(OUT_DIR, slug(name))
     os.makedirs(folder, exist_ok=True)
-    used = {p["source"] for p in photos}
+    used = {p["source"] for p in photos} | set(skip)
     next_num = max([int(os.path.splitext(os.path.basename(p["file"]))[0]) for p in photos] + [0]) + 1
 
     for occ in occurrences(key):
@@ -166,23 +171,39 @@ def fetch_species(name, photos):
 def main(names):
     """Top up the given species, or all of SPECIES if none are given.
 
-    Photos already in photos.json are kept. To refetch a species from
-    scratch, delete its folder and its entry in photos.json first.
+    Photos already in photos.json are kept. Photos whose file was deleted
+    are added to skip.json and replaced.
     """
     manifest_path = os.path.join(OUT_DIR, "photos.json")
-    manifest = {}
+    skip_path = os.path.join(OUT_DIR, "skip.json")
+    manifest, skip = {}, {}
     if os.path.exists(manifest_path):
         with open(manifest_path) as f:
             manifest = json.load(f)
+    if os.path.exists(skip_path):
+        with open(skip_path) as f:
+            skip = json.load(f)
 
     for name in names or SPECIES:
+        sid = slug(name)
         print(f"{name}...")
-        existing = manifest.get(slug(name), {}).get("photos", [])
-        photos = fetch_species(name, existing)
-        manifest[slug(name)] = {"latin": name, "photos": photos}
+        skipped = skip.setdefault(sid, [])
+        existing = []
+        for p in manifest.get(sid, {}).get("photos", []):
+            if os.path.exists(os.path.join(OUT_DIR, p["file"])):
+                existing.append(p)
+            else:
+                print(f"  {p['file']} was deleted, skipping it from now on")
+                if p["source"] not in skipped:
+                    skipped.append(p["source"])
+
+        photos = fetch_species(name, existing, skipped)
+        manifest[sid] = {"latin": name, "photos": photos}
         print(f"  {len(photos)} photos ({len(photos) - len(existing)} new)")
         with open(manifest_path, "w") as f:  # save as we go
             json.dump(manifest, f, indent=2)
+        with open(skip_path, "w") as f:
+            json.dump({k: v for k, v in skip.items() if v}, f, indent=2)
         time.sleep(1)
 
     print(f"\nDone. Credits saved to {OUT_DIR}/photos.json")

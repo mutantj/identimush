@@ -38,6 +38,7 @@ let species = [];          // species that have at least one photo
 let byId = {};
 let current = null;        // species being asked
 let lastId = null;
+let upcoming = null;       // next question, picked early so its photos preload
 let state = loadState();
 
 function loadState() {
@@ -125,6 +126,19 @@ function pickSpecies() {
   return pool[pool.length - 1];
 }
 
+// Pick the next species now and start downloading its photos, so they're
+// ready by the time the player presses "Next mushroom".
+function queueNext() {
+  const sp = pickSpecies();
+  const photos = shuffle(sp.photos).slice(0, 3);
+  const images = photos.map((p) => {
+    const img = new Image();
+    img.src = `photos/${p.file}`;
+    return img;  // kept in `upcoming` so the download isn't dropped
+  });
+  upcoming = { sp, photos, images };
+}
+
 function buildChoices(target, cfg) {
   const picked = [target];
   if (cfg.distractors === "lookalike") {
@@ -152,11 +166,12 @@ function showPhoto(photo) {
 
 function renderQuestion() {
   const cfg = levelConfig();
-  current = pickSpecies();
+  if (!upcoming) queueNext();
+  current = upcoming.sp;
+  const photos = upcoming.photos;  // up to 3, shuffled
+  upcoming = null;
   lastId = current.id;
 
-  // Up to 3 photos of this species, shuffled.
-  const photos = shuffle(current.photos).slice(0, 3);
   showPhoto(photos[0]);
   const thumbs = $("thumbs");
   thumbs.replaceChildren();
@@ -287,6 +302,7 @@ function answer(chosen) {
   saveState();
   updateTopbar();
   renderFeedback(chosen, correct);
+  queueNext();  // after misses are updated, so weighting stays the same
 }
 
 // ---- Start ----------------------------------------------------------------
@@ -298,9 +314,13 @@ function showError(msg) {
   err.hidden = false;
 }
 
+// Load data and preload the first question while the start screen shows.
+const ready = loadData().then(queueNext);
+ready.catch(() => {});  // reported when Start is pressed
+
 $("start-btn").addEventListener("click", async () => {
   try {
-    if (!species.length) await loadData();
+    await ready;
     $("start").hidden = true;
     $("question").hidden = false;
     renderQuestion();

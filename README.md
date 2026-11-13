@@ -26,6 +26,10 @@ Opening `index.html` directly won't work: browsers block loading the JSON files 
 - `data/species.json`: species features, lookalikes and toxicity
 - `scripts/fetch_photos.py`: downloads CC-licensed photos from GBIF
 
+## Remove a bad photo
+
+Delete the photo file, then run `python scripts/fetch_photos.py "<Latin name>"`. The script drops it from `photos/photos.json`, adds it to `photos/skip.json` so it's never downloaded again, and fetches a replacement.
+
 ## Add a species
 
 1. Add its Latin name to `SPECIES` in `scripts/fetch_photos.py`, then fetch just that species (keeps existing photos):
