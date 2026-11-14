@@ -173,6 +173,24 @@
         "creator": "Norma Malinowski",
         "license": "http://creativecommons.org/licenses/by/4.0/",
         "source": "https://www.gbif.org/occurrence/2429254640"
+      },
+      {
+        "file": "cantharellus-cibarius/8.jpg",
+        "creator": "Bell Museum fungi",
+        "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+        "source": "https://www.gbif.org/occurrence/2336657737"
+      },
+      {
+        "file": "cantharellus-cibarius/9.jpg",
+        "creator": "Bell Museum fungi",
+        "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+        "source": "https://www.gbif.org/occurrence/2336657508"
+      },
+      {
+        "file": "cantharellus-cibarius/10.jpg",
+        "creator": "Bell Museum fungi",
+        "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+        "source": "https://www.gbif.org/occurrence/2336657279"
       }
     ]
   },
@@ -1538,6 +1556,224 @@
         "creator": "dpcmiller",
         "license": "http://creativecommons.org/licenses/by/4.0/",
         "source": "https://www.gbif.org/occurrence/6400860423"
+      }
+    ]
+  },
+  "psilocybe-cubensis": {
+    "latin": "Psilocybe cubensis",
+    "photos": [
+      {
+        "file": "psilocybe-cubensis/1.jpg",
+        "creator": "Carlos Dom\u00ednguez-Rodr\u00edguez",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/6133405176"
+      },
+      {
+        "file": "psilocybe-cubensis/2.jpg",
+        "creator": "EDMILSON FERNANDO JARQUIN LOPEZ",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/6470540906"
+      },
+      {
+        "file": "psilocybe-cubensis/3.jpg",
+        "creator": "Jackie T",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/6413172751"
+      },
+      {
+        "file": "psilocybe-cubensis/4.jpg",
+        "creator": "Erick V\u00e9lez S\u00e1nchez",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/6440953497"
+      },
+      {
+        "file": "psilocybe-cubensis/5.jpg",
+        "creator": "Erick V\u00e9lez S\u00e1nchez",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/6441592957"
+      },
+      {
+        "file": "psilocybe-cubensis/6.jpg",
+        "creator": "Erick V\u00e9lez S\u00e1nchez",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/6441633071"
+      },
+      {
+        "file": "psilocybe-cubensis/7.jpg",
+        "creator": "Erick V\u00e9lez S\u00e1nchez",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/6441853949"
+      },
+      {
+        "file": "psilocybe-cubensis/8.jpg",
+        "creator": "Erick V\u00e9lez S\u00e1nchez",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/6441855746"
+      },
+      {
+        "file": "psilocybe-cubensis/9.jpg",
+        "creator": "drnancyjackson",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/6452105906"
+      },
+      {
+        "file": "psilocybe-cubensis/10.jpg",
+        "creator": "Mary",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/6479185306"
+      }
+    ]
+  },
+  "psilocybe-cyanescens": {
+    "latin": "Psilocybe cyanescens",
+    "photos": [
+      {
+        "file": "psilocybe-cyanescens/1.jpg",
+        "creator": "Audrey Lacey",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/5890088618"
+      },
+      {
+        "file": "psilocybe-cyanescens/2.jpg",
+        "creator": "Collier Sparks",
+        "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+        "source": "https://www.gbif.org/occurrence/5890170773"
+      },
+      {
+        "file": "psilocybe-cyanescens/3.jpg",
+        "creator": "fletchermoore",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/5889374081"
+      },
+      {
+        "file": "psilocybe-cyanescens/4.jpg",
+        "creator": "anthocyana",
+        "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+        "source": "https://www.gbif.org/occurrence/5892578644"
+      },
+      {
+        "file": "psilocybe-cyanescens/5.jpg",
+        "creator": "Samuelle Simard-Proven\u00e7al",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/5897525241"
+      },
+      {
+        "file": "psilocybe-cyanescens/6.jpg",
+        "creator": "Mandy Hackney",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/5897699547"
+      },
+      {
+        "file": "psilocybe-cyanescens/7.jpg",
+        "creator": "Matt B",
+        "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+        "source": "https://www.gbif.org/occurrence/5938629887"
+      },
+      {
+        "file": "psilocybe-cyanescens/8.jpg",
+        "creator": "Alexander Wentworth",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/6147309860"
+      },
+      {
+        "file": "psilocybe-cyanescens/9.jpg",
+        "creator": "Katherine Scott",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/5935240474"
+      },
+      {
+        "file": "psilocybe-cyanescens/10.jpg",
+        "creator": "Jonathan Curley",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/5935685691"
+      }
+    ]
+  },
+  "psilocybe-semilanceata": {
+    "latin": "Psilocybe semilanceata",
+    "photos": [
+      {
+        "file": "psilocybe-semilanceata/1.jpg",
+        "creator": "Justin Paulin",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/4987524499"
+      },
+      {
+        "file": "psilocybe-semilanceata/2.jpg",
+        "creator": "Mandy Hackney",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/4936192331"
+      },
+      {
+        "file": "psilocybe-semilanceata/3.jpg",
+        "creator": "Mandy Hackney",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/4936525660"
+      }
+    ]
+  },
+  "pholiotina-rugosa": {
+    "latin": "Pholiotina rugosa",
+    "photos": [
+      {
+        "file": "pholiotina-rugosa/1.jpg",
+        "creator": "Matthew Rozanoff",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/6130958695"
+      },
+      {
+        "file": "pholiotina-rugosa/2.jpg",
+        "creator": "Mandy Hackney",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/6178416187"
+      },
+      {
+        "file": "pholiotina-rugosa/3.jpg",
+        "creator": "Mandy Hackney",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/6185207254"
+      },
+      {
+        "file": "pholiotina-rugosa/4.jpg",
+        "creator": "fern Wildtruth",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/5070104763"
+      },
+      {
+        "file": "pholiotina-rugosa/5.jpg",
+        "creator": "Mandy Hackney",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/5077016293"
+      },
+      {
+        "file": "pholiotina-rugosa/6.jpg",
+        "creator": "northerly",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/5104402172"
+      },
+      {
+        "file": "pholiotina-rugosa/7.jpg",
+        "creator": "Kyle Elshoff",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/5238010439"
+      },
+      {
+        "file": "pholiotina-rugosa/8.jpg",
+        "creator": "reagan peschke",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/5291763543"
+      },
+      {
+        "file": "pholiotina-rugosa/9.jpg",
+        "creator": "reagan peschke",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/4516461540"
+      },
+      {
+        "file": "pholiotina-rugosa/10.jpg",
+        "creator": "reagan peschke",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/4525114776"
       }
     ]
   }

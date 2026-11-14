@@ -91,6 +91,7 @@ button:focus-visible { outline: 3px solid var(--chanterelle); outline-offset: 2p
 .badge.deadly, .badge.toxic { background: var(--amanita); color: #fff; }
 .badge.edible, .badge.edible-caution { background: var(--lichen); color: var(--moss); }
 .badge.inedible { background: var(--mycelium-dim); color: var(--moss); }
+.badge.psychoactive { background: #b49bd6; color: var(--moss); }
 
 .features { display: grid; grid-template-columns: max-content 1fr; gap: 0.35rem 1rem; margin: 0 0 1rem; }
 .features dt { font-weight: 600; color: var(--chanterelle); }

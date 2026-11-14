@@ -28,6 +28,7 @@ const TOXICITY_LABELS = {
   "edible-caution": "Edible with caution",
   "inedible": "Inedible",
   "toxic": "Poisonous",
+  "psychoactive": "Psychoactive",
   "deadly": "Deadly",
 };
 

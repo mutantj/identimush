@@ -28,6 +28,7 @@ OUT_DIR = os.path.join(ROOT, "audio")
 AGARICUS = "@g'arIk@s"
 AMANITA = ",am@n'aIt@"
 CHLOROPHYLLUM = ",klO:roUf'Il@m"
+PSILOCYBE = ",saIloUs'aIbi"
 
 PHONEMES = {
     "agaricus-campestris": f"{AGARICUS} kamp'EstrIs",
@@ -54,6 +55,10 @@ PHONEMES = {
     "agaricus-xanthodermus": f"{AGARICUS} ,zanToUd'3:m@s",
     "agaricus-arvensis": f"{AGARICUS} A:rv'EnsIs",
     "agaricus-augustus": f"{AGARICUS} O:g'Vst@s",
+    "psilocybe-cubensis": f"{PSILOCYBE} kju:b'EnsIs",
+    "psilocybe-cyanescens": f"{PSILOCYBE} ,saI@n'Es@nz",
+    "psilocybe-semilanceata": f"{PSILOCYBE} ,sEmi,lansi'A:t@",
+    "pholiotina-rugosa": "foU,lioUt'aIn@_ ru:g'oUs@",
 }
 
 

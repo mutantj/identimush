@@ -52,6 +52,10 @@ SPECIES = [
     "Agaricus xanthodermus",
     "Agaricus arvensis",
     "Agaricus augustus",
+    "Psilocybe cubensis",
+    "Psilocybe cyanescens",
+    "Psilocybe semilanceata",
+    "Pholiotina rugosa",
 ]
 
 HEADERS = {"User-Agent": "Identimush/0.1 (educational mushroom ID game)"}

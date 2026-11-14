@@ -176,7 +176,8 @@
       "other": "Contains the same amatoxins as the Death Cap"
     },
     "lookalikes": [
-      { "id": "armillaria-mellea", "tell": "Honey Mushrooms are bigger, have hairy caps, and drop a white spore print." }
+      { "id": "armillaria-mellea", "tell": "Honey Mushrooms are bigger, have hairy caps, and drop a white spore print." },
+      { "id": "psilocybe-cyanescens", "tell": "Wavy Caps have no ring, a dark purple-brown spore print and bruise blue. Galerina has a ring, a rusty-brown spore print and never bruises blue." }
     ]
   },
   {
@@ -429,6 +430,78 @@
     },
     "lookalikes": [
       { "id": "agaricus-xanthodermus", "tell": "The Yellow-staining Mushroom has a smooth white cap without brown scales and smells of ink or phenol." }
+    ]
+  },
+  {
+    "id": "psilocybe-cubensis",
+    "common": "Gold Cap",
+    "latin": "Psilocybe cubensis",
+    "say": "sye-loh-SYE-bee kew-BEN-sis",
+    "toxicity": "psychoactive",
+    "features": {
+      "cap": "Golden to caramel-brown, bell-shaped then flat, 2–8 cm, often with white veil specks",
+      "underside": "Attached gills, grey then purple-black",
+      "stipe": "White and thick, with a thin ring that turns purple-black from fallen spores; bruises blue",
+      "sporePrint": "Dark purple-brown",
+      "habitat": "On cow or horse dung in pastures, Gulf Coast states, warm wet months",
+      "other": "Contains psilocybin. Illegal to pick or possess in most of North America."
+    },
+    "lookalikes": [
+      { "id": "galerina-marginata", "tell": "Deadly Galerina grows on wood, never dung, drops a rusty-brown spore print and doesn't bruise blue." }
+    ]
+  },
+  {
+    "id": "psilocybe-cyanescens",
+    "common": "Wavy Cap",
+    "latin": "Psilocybe cyanescens",
+    "say": "sye-loh-SYE-bee sye-a-NES-enz",
+    "toxicity": "psychoactive",
+    "features": {
+      "cap": "Caramel to chestnut, drying pale, edge turns strongly wavy with age, 1.5–5 cm",
+      "underside": "Attached gills, brown then dark purple-brown",
+      "stipe": "White, thin and fibrous, no ring; bruises blue",
+      "sporePrint": "Dark purple-brown",
+      "habitat": "Wood chips and mulch, Pacific Northwest and California, fall to early winter",
+      "other": "Contains psilocybin. Illegal to pick or possess in most of North America."
+    },
+    "lookalikes": [
+      { "id": "galerina-marginata", "tell": "Deadly Galerina also grows on wood and is brown, but has a ring, a rusty-brown spore print and never bruises blue. This mix-up has killed people." }
+    ]
+  },
+  {
+    "id": "psilocybe-semilanceata",
+    "common": "Liberty Cap",
+    "latin": "Psilocybe semilanceata",
+    "say": "sye-loh-SYE-bee sem-ee-lan-see-AH-ta",
+    "toxicity": "psychoactive",
+    "features": {
+      "cap": "Small, conical with a sharp nipple, tan to olive-brown, slimy when wet, 0.5–2.5 cm",
+      "underside": "Attached gills, grey then purple-black",
+      "stipe": "Thin, wavy and pale, sometimes bluish at the base; no ring",
+      "sporePrint": "Dark purple-brown",
+      "habitat": "Grassy pastures and lawns, Pacific Northwest, fall",
+      "other": "Contains psilocybin. Illegal to pick or possess in most of North America."
+    },
+    "lookalikes": [
+      { "id": "pholiotina-rugosa", "tell": "Pholiotina rugosa has a rounded rusty-orange cap without a sharp nipple, a small ring on the stem and a rusty-brown spore print." }
+    ]
+  },
+  {
+    "id": "pholiotina-rugosa",
+    "common": "Ringed Conecap",
+    "latin": "Pholiotina rugosa",
+    "say": "foh-lee-oh-TYE-na roo-GOH-sa",
+    "toxicity": "deadly",
+    "features": {
+      "cap": "Small, bell-shaped, rusty orange-brown, faintly lined, 0.5–2 cm",
+      "underside": "Rusty-brown gills",
+      "stipe": "Thin and fragile, with a small movable ring",
+      "sporePrint": "Rusty brown",
+      "habitat": "Lawns, gardens and wood chips, widespread, spring to fall",
+      "other": "Contains amatoxins, the same poison as the Death Cap"
+    },
+    "lookalikes": [
+      { "id": "psilocybe-semilanceata", "tell": "Liberty Caps have a sharp nipple on the cap, no ring and a dark purple-brown spore print." }
     ]
   }
 ]
