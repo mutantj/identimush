@@ -29,6 +29,7 @@ AGARICUS = "@g'arIk@s"
 AMANITA = ",am@n'aIt@"
 CHLOROPHYLLUM = ",klO:roUf'Il@m"
 PSILOCYBE = ",saIloUs'aIbi"
+LECCINUM = "lEks'aIn@m"
 
 PHONEMES = {
     "agaricus-campestris": f"{AGARICUS} kamp'EstrIs",
@@ -59,6 +60,9 @@ PHONEMES = {
     "psilocybe-cyanescens": f"{PSILOCYBE} ,saI@n'Es@nz",
     "psilocybe-semilanceata": f"{PSILOCYBE} ,sEmi,lansi'A:t@",
     "pholiotina-rugosa": "foU,lioUt'aIn@_ ru:g'oUs@",
+    "leccinum-scabrum": f"{LECCINUM} sk'eIbr@m",
+    "leccinum-versipelle": f"{LECCINUM} ,v3:sIp'Eli",
+    "leccinum-insigne": f"{LECCINUM} Ins'Igni",
 }
 
 

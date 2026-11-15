@@ -1776,5 +1776,170 @@
         "source": "https://www.gbif.org/occurrence/4525114776"
       }
     ]
+  },
+  "leccinum-scabrum": {
+    "latin": "Leccinum scabrum",
+    "photos": [
+      {
+        "file": "leccinum-scabrum/1.jpg",
+        "creator": "Jannik Scherer",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/6551909077"
+      },
+      {
+        "file": "leccinum-scabrum/2.jpg",
+        "creator": "Roger Rittmaster",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/6566491332"
+      },
+      {
+        "file": "leccinum-scabrum/3.jpg",
+        "creator": "Jared Jacobson",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/6870490981"
+      },
+      {
+        "file": "leccinum-scabrum/4.jpg",
+        "creator": "Kevin Krebs",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/6871316212"
+      },
+      {
+        "file": "leccinum-scabrum/5.jpg",
+        "creator": "Trix Niernberger",
+        "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+        "source": "https://www.gbif.org/occurrence/5293186300"
+      },
+      {
+        "file": "leccinum-scabrum/6.jpg",
+        "creator": "Mical",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/6500041631"
+      },
+      {
+        "file": "leccinum-scabrum/7.jpg",
+        "creator": "Emerson",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/5827594459"
+      },
+      {
+        "file": "leccinum-scabrum/8.jpg",
+        "creator": "Emerson",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/5827762938"
+      },
+      {
+        "file": "leccinum-scabrum/9.jpg",
+        "creator": "Mandy Hackney",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/5827892617"
+      },
+      {
+        "file": "leccinum-scabrum/10.jpg",
+        "creator": "Emerson",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/5827941505"
+      }
+    ]
+  },
+  "leccinum-versipelle": {
+    "latin": "Leccinum versipelle",
+    "photos": [
+      {
+        "file": "leccinum-versipelle/1.jpg",
+        "creator": "Dave Muska",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/4430483292"
+      },
+      {
+        "file": "leccinum-versipelle/2.jpg",
+        "creator": "Kristof Zyskowski",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/3902932074"
+      },
+      {
+        "file": "leccinum-versipelle/3.jpg",
+        "creator": "pinonbistro",
+        "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+        "source": "https://www.gbif.org/occurrence/3044926336"
+      },
+      {
+        "file": "leccinum-versipelle/4.jpg",
+        "creator": "Bell Museum fungi",
+        "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+        "source": "https://www.gbif.org/occurrence/2336657241"
+      },
+      {
+        "file": "leccinum-versipelle/5.jpg",
+        "creator": "bellfungi",
+        "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+        "source": "https://www.gbif.org/occurrence/2268241054"
+      }
+    ]
+  },
+  "leccinum-insigne": {
+    "latin": "Leccinum insigne",
+    "photos": [
+      {
+        "file": "leccinum-insigne/1.jpg",
+        "creator": "Chen Liang",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/6500303564"
+      },
+      {
+        "file": "leccinum-insigne/2.jpg",
+        "creator": "Alissa Iverson",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/5291978392"
+      },
+      {
+        "file": "leccinum-insigne/3.jpg",
+        "creator": "Nick B\u00e9dard",
+        "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+        "source": "https://www.gbif.org/occurrence/5292473283"
+      },
+      {
+        "file": "leccinum-insigne/4.jpg",
+        "creator": "Norma Malinowski",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/5293066013"
+      },
+      {
+        "file": "leccinum-insigne/5.jpg",
+        "creator": "Norma Malinowski",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/5760336469"
+      },
+      {
+        "file": "leccinum-insigne/6.jpg",
+        "creator": "Garth Harwood",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/5920301195"
+      },
+      {
+        "file": "leccinum-insigne/7.jpg",
+        "creator": "allan5519",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/4903796893"
+      },
+      {
+        "file": "leccinum-insigne/8.jpg",
+        "creator": "Katie Muldowney",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/6519387696"
+      },
+      {
+        "file": "leccinum-insigne/9.jpg",
+        "creator": "Michelle W. \uff08\u937e\u5049\u744b\uff09",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/4925828561"
+      },
+      {
+        "file": "leccinum-insigne/10.jpg",
+        "creator": "Paul Asman and Jill Lenoble",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "source": "https://www.gbif.org/occurrence/4936328336"
+      }
+    ]
   }
 }

@@ -56,6 +56,9 @@ SPECIES = [
     "Psilocybe cyanescens",
     "Psilocybe semilanceata",
     "Pholiotina rugosa",
+    "Leccinum scabrum",
+    "Leccinum versipelle",
+    "Leccinum insigne",
 ]
 
 HEADERS = {"User-Agent": "Identimush/0.1 (educational mushroom ID game)"}

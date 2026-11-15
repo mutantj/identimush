@@ -194,7 +194,8 @@
       "habitat": "With conifers and birch, summer to fall"
     },
     "lookalikes": [
-      { "id": "tylopilus-felleus", "tell": "The Bitter Bolete has pinkish pores and a coarse dark-brown net on the stem." }
+      { "id": "tylopilus-felleus", "tell": "The Bitter Bolete has pinkish pores and a coarse dark-brown net on the stem." },
+      { "id": "leccinum-scabrum", "tell": "The Birch Bolete has a slimmer stem covered in dark rough scabers instead of a fine white net, and always grows with birch." }
     ]
   },
   {
@@ -502,6 +503,61 @@
     },
     "lookalikes": [
       { "id": "psilocybe-semilanceata", "tell": "Liberty Caps have a sharp nipple on the cap, no ring and a dark purple-brown spore print." }
+    ]
+  },
+  {
+    "id": "leccinum-scabrum",
+    "common": "Birch Bolete",
+    "latin": "Leccinum scabrum",
+    "say": "lek-SYE-num SKAY-brum",
+    "toxicity": "edible-caution",
+    "features": {
+      "cap": "Grey-brown to brown, dry and smooth, goes soft with age, 5–15 cm",
+      "underside": "Whitish to grey-buff pores, bruising brownish",
+      "stipe": "Tall and whitish, covered in dark brown to black scabers (rough tufts)",
+      "sporePrint": "Brown",
+      "habitat": "Always with birch, summer to fall",
+      "other": "Flesh white, staying white or turning slightly pinkish when cut. Cook thoroughly."
+    },
+    "lookalikes": [
+      { "id": "tylopilus-felleus", "tell": "The Bitter Bolete has pinkish pores, a raised dark net on the stem instead of scabers, and tastes very bitter." },
+      { "id": "boletus-edulis", "tell": "The King Bolete has a fat stem with a fine white net near the top and no dark scabers." }
+    ]
+  },
+  {
+    "id": "leccinum-versipelle",
+    "common": "Orange Birch Bolete",
+    "latin": "Leccinum versipelle",
+    "say": "lek-SYE-num ver-si-PEL-ee",
+    "toxicity": "edible-caution",
+    "features": {
+      "cap": "Orange to tawny orange, dry, with a flap of tissue hanging over the pore edge, 8–20 cm",
+      "underside": "Small grey to olive-buff pores",
+      "stipe": "Tall and white with black scabers",
+      "sporePrint": "Brown",
+      "habitat": "With birch, northern North America, summer to fall",
+      "other": "Flesh turns pinkish-grey then blackish when cut. Orange-capped Leccinums have made people sick in North America, mostly when undercooked. Always cook thoroughly."
+    },
+    "lookalikes": [
+      { "id": "leccinum-insigne", "tell": "The Aspen Bolete grows with aspen, not birch, and its scabers start pale and darken to reddish-brown." }
+    ]
+  },
+  {
+    "id": "leccinum-insigne",
+    "common": "Aspen Bolete",
+    "latin": "Leccinum insigne",
+    "say": "lek-SYE-num in-SIG-nee",
+    "toxicity": "edible-caution",
+    "features": {
+      "cap": "Orange to reddish-brown, slightly fibrous, 4–15 cm",
+      "underside": "Pale buff pores, bruising olive-brown",
+      "stipe": "Whitish, scabers pale at first then reddish-brown to blackish",
+      "sporePrint": "Brown",
+      "habitat": "With aspen, northern forests and the Rockies, summer to fall",
+      "other": "Flesh slowly turns purple-grey to black when cut. Orange-capped Leccinums have made people sick in North America, mostly when undercooked. Always cook thoroughly."
+    },
+    "lookalikes": [
+      { "id": "leccinum-versipelle", "tell": "The Orange Birch Bolete grows with birch, has black scabers from the start and an overhanging flap on the cap edge." }
     ]
   }
 ]
