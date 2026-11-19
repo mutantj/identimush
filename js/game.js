@@ -38,7 +38,8 @@ const SAVE_KEY = "identimush-v1";
 let species = [];          // species that have at least one photo
 let byId = {};
 let current = null;        // species being asked
-let lastId = null;
+const RECENT_LIMIT = 10;   // a species can't repeat within this many questions
+let recent = [];           // ids of species asked, oldest first
 let upcoming = null;       // next question, picked early so its photos preload
 let state = loadState();
 
@@ -116,9 +117,11 @@ async function loadData() {
 
 // ---- Picking questions ----------------------------------------------------
 function pickSpecies() {
-  // Species you've missed come up more often.
-  const pool = species.filter((sp) => sp.id !== lastId);
-  const weights = pool.map((sp) => 1 + 2 * (state.misses[sp.id] || 0));
+  // Skip anything shown recently, so the same mushroom doesn't keep coming back.
+  const avoid = recent.slice(-Math.min(RECENT_LIMIT, species.length - 1));
+  const pool = species.filter((sp) => !avoid.includes(sp.id));
+  // Species you've missed come up more often (capped, so one doesn't dominate).
+  const weights = pool.map((sp) => 1 + Math.min(state.misses[sp.id] || 0, 2));
   let r = Math.random() * weights.reduce((a, b) => a + b, 0);
   for (let i = 0; i < pool.length; i++) {
     r -= weights[i];
@@ -171,7 +174,7 @@ function renderQuestion() {
   current = upcoming.sp;
   const photos = upcoming.photos;  // up to 3, shuffled
   upcoming = null;
-  lastId = current.id;
+  recent = [...recent, current.id].slice(-RECENT_LIMIT);
 
   showPhoto(photos[0]);
   const thumbs = $("thumbs");
