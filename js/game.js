@@ -41,7 +41,16 @@ let current = null;        // species being asked
 const RECENT_LIMIT = 10;   // a species can't repeat within this many questions
 let recent = [];           // ids of species asked, oldest first
 let upcoming = null;       // next question, picked early so its photos preload
+let currentKind = "photo"; // "photo" or "describe" (written description, no photo)
+let revealPhoto = null;    // photo shown in feedback after a describe question
 let state = loadState();
+
+// Description questions: no photo, just the features. Mixed in from this level.
+const DESCRIBE_FROM_LEVEL = 2;
+const DESCRIBE_CHANCE = 1 / 3;
+// Features shown as clues. "other" is left out: it often names the species
+// or genus ("raw morels...", "Contains psilocybin"). It's shown after answering.
+const CLUE_KEYS = ["cap", "underside", "stipe", "sporePrint", "habitat"];
 
 function loadState() {
   try {
@@ -134,13 +143,16 @@ function pickSpecies() {
 // ready by the time the player presses "Next mushroom".
 function queueNext() {
   const sp = pickSpecies();
-  const photos = shuffle(sp.photos).slice(0, 3);
+  const kind = state.level >= DESCRIBE_FROM_LEVEL && Math.random() < DESCRIBE_CHANCE
+    ? "describe" : "photo";
+  // A describe question only needs the one photo revealed after answering.
+  const photos = shuffle(sp.photos).slice(0, kind === "describe" ? 1 : 3);
   const images = photos.map((p) => {
     const img = new Image();
     img.src = `photos/${p.file}`;
     return img;  // kept in `upcoming` so the download isn't dropped
   });
-  upcoming = { sp, photos, images };
+  upcoming = { sp, kind, photos, images };
 }
 
 function buildChoices(target, cfg) {
@@ -159,27 +171,45 @@ function buildChoices(target, cfg) {
 }
 
 // ---- Rendering ------------------------------------------------------------
+function creditNodes(photo) {
+  return [
+    `Photo by ${photo.creator}, ${shortLicence(photo.license)}. `,
+    el("a", { href: photo.source, target: "_blank", rel: "noopener" }, "Source"),
+  ];
+}
+
 function showPhoto(photo) {
   $("photo").src = `photos/${photo.file}`;
-  const credit = $("credit");
-  credit.replaceChildren(
-    `Photo by ${photo.creator}, ${shortLicence(photo.license)}. `,
-    el("a", { href: photo.source, target: "_blank", rel: "noopener" }, "Source")
-  );
+  $("credit").replaceChildren(...creditNodes(photo));
 }
 
 function renderQuestion() {
   const cfg = levelConfig();
   if (!upcoming) queueNext();
   current = upcoming.sp;
-  const photos = upcoming.photos;  // up to 3, shuffled
+  currentKind = upcoming.kind;
+  const photos = upcoming.photos;  // shuffled: up to 3, or 1 for describe
   upcoming = null;
   recent = [...recent, current.id].slice(-RECENT_LIMIT);
 
-  showPhoto(photos[0]);
+  const describe = currentKind === "describe";
+  revealPhoto = describe ? photos[0] : null;
+  document.querySelector(".specimen").hidden = describe;
+  $("thumbs").hidden = describe;
+  const clues = $("clues");
+  clues.hidden = !describe;
+  clues.replaceChildren();
+  if (describe) {
+    for (const key of CLUE_KEYS) {
+      if (current.features[key]) clues.append(el("dt", {}, FEATURE_LABELS[key]), el("dd", {}, current.features[key]));
+    }
+  } else {
+    showPhoto(photos[0]);
+  }
+
   const thumbs = $("thumbs");
   thumbs.replaceChildren();
-  if (photos.length > 1) {
+  if (!describe && photos.length > 1) {
     photos.forEach((p, i) => {
       const btn = el("button", {
         "aria-label": `Photo ${i + 1}`,
@@ -194,7 +224,9 @@ function renderQuestion() {
     });
   }
 
-  $("prompt").textContent = cfg.mode === "latin" ? "Which species is this?" : "What is this?";
+  $("prompt").textContent = describe
+    ? "Which mushroom matches this description?"
+    : cfg.mode === "latin" ? "Which species is this?" : "What is this?";
 
   const choices = $("choices");
   choices.replaceChildren();
@@ -231,9 +263,18 @@ function renderFeedback(chosen, correct) {
   }
   fb.append(el("span", { class: `badge ${current.toxicity}` }, TOXICITY_LABELS[current.toxicity] || current.toxicity));
 
+  // After a description question, show what it looks like.
+  if (currentKind === "describe" && revealPhoto) {
+    fb.append(el("figure", { class: "reveal" },
+      el("img", { src: `photos/${revealPhoto.file}`, alt: `${current.common}` }),
+      el("figcaption", { class: "credit" }, ...creditNodes(revealPhoto))));
+  }
+
   // Why it's this species
   const dl = el("dl", { class: "features" });
   for (const [key, label] of Object.entries(FEATURE_LABELS)) {
+    // Description questions already showed the clues; only add what was held back.
+    if (currentKind === "describe" && CLUE_KEYS.includes(key)) continue;
     if (current.features[key]) dl.append(el("dt", {}, label), el("dd", {}, current.features[key]));
   }
   fb.append(dl);
@@ -337,6 +378,7 @@ $("reset-btn").addEventListener("click", () => {
   if (!confirm("Reset your level and progress?")) return;
   state = { level: 1, progress: 0, correct: 0, answered: 0, misses: {} };
   saveState();
+  if (species.length) queueNext();  // re-pick so level 1 rules apply
   updateTopbar();
   toast("Progress reset");
 });

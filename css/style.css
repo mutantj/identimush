@@ -44,6 +44,8 @@ main { max-width: 640px; margin: 0 auto; padding: 1rem; }
 .panel h2 { font-size: 1.6rem; margin: 1rem 0 0.75rem; }
 .warning { border-left: 3px solid var(--amanita); padding-left: 0.75rem; color: var(--mycelium-dim); }
 
+[hidden] { display: none !important; }
+
 /* Photo */
 .specimen { margin: 0; }
 .specimen img {
@@ -96,6 +98,10 @@ button:focus-visible { outline: 3px solid var(--chanterelle); outline-offset: 2p
 .features { display: grid; grid-template-columns: max-content 1fr; gap: 0.35rem 1rem; margin: 0 0 1rem; }
 .features dt { font-weight: 600; color: var(--chanterelle); }
 .features dd { margin: 0; }
+/* Description question: the features stand in for the photo */
+.clues { background: var(--moss-light); border-radius: var(--radius); padding: 1rem 1.1rem; margin: 0 0 0.5rem; }
+.reveal { margin: 0 0 1rem; }
+.reveal img { display: block; width: 100%; max-width: 420px; aspect-ratio: 4 / 3; object-fit: cover; border-radius: var(--radius); }
 .why-not { background: var(--moss-light); border-radius: var(--radius); padding: 0.75rem 1rem; margin-bottom: 1rem; }
 .why-not h4 { margin: 0 0 0.35rem; font-size: 1rem; }
 
