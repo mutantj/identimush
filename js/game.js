@@ -9,6 +9,7 @@ const LEVELS = [
   { mode: "common", choices: 3, distractors: "random",    toNext: 5 },
   { mode: "common", choices: 4, distractors: "random",    toNext: 5 },
   { mode: "common", choices: 4, distractors: "lookalike", toNext: 6 },
+  { mode: "common", choices: 4, distractors: "random",    toNext: 6 },  // description questions start
   { mode: "latin",  choices: 3, distractors: "random",    toNext: 6 },
   { mode: "latin",  choices: 4, distractors: "random",    toNext: 6 },
   { mode: "latin",  choices: 4, distractors: "lookalike", toNext: Infinity },
@@ -46,7 +47,7 @@ let revealPhoto = null;    // photo shown in feedback after a describe question
 let state = loadState();
 
 // Description questions: no photo, just the features. Mixed in from this level.
-const DESCRIBE_FROM_LEVEL = 2;
+const DESCRIBE_FROM_LEVEL = 4;
 const DESCRIBE_CHANCE = 1 / 3;
 // Features shown as clues. "other" is left out: it often names the species
 // or genus ("raw morels...", "Contains psilocybin"). It's shown after answering.
@@ -341,7 +342,9 @@ function answer(chosen) {
     const next = levelConfig();
     toast(next.mode === "latin" && cfg.mode === "common"
       ? `Level ${state.level}: Latin names from now on`
-      : `Level ${state.level} reached`);
+      : state.level === DESCRIBE_FROM_LEVEL
+        ? `Level ${state.level}: some mushrooms are now described, not shown`
+        : `Level ${state.level} reached`);
   }
 
   saveState();

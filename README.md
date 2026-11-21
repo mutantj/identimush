@@ -1,7 +1,7 @@
 # Identimush
 
 A game for learning to identify North American mushrooms from photos.
-Multiple choice with common names first, Latin names from level 4.
+Multiple choice with common names first. From level 4 some questions are written descriptions instead of photos; Latin names from level 5.
 
 > Learning tool only. Never eat a wild mushroom based on a photo or an app.
 
